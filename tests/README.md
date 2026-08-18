@@ -10,6 +10,8 @@ Before choosing or approving a location, complete the [Gate C site-validation pa
 
 Use the [Gate D tabletop-decision pack](tabletop-decision-pack/README.md) to compare independent instructor/TA decisions on a deliberately ambiguous synthetic 72-hour case. It tests thresholds, displays and authority—not prototype performance.
 
+Use the [v0.2 synthetic integration pack](synthetic-v0.2/README.md) to inspect a later, corrected end-to-end example with a generated 432-record dataset, daily observations, retrieval inspection and a narrower progression decision. Its reproducible pipeline is complete; none of its values is measured.
+
 Every test record should include:
 
 - Test ID, date, author, and objective
@@ -20,3 +22,4 @@ Every test record should include:
 - Raw data and observations
 - Pass/fail/inconclusive outcome
 - Follow-up Issue or design decision
+
