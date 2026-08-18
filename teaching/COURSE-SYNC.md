@@ -12,27 +12,27 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Item | Reviewed value |
 |---|---|
 | Course repository | `heqihao522828-crypto/ENGG2202-Green-Technology` |
-| Course baseline after Gate D/E sync | `685ae2d21304e94937eefd61199eb3c7ac52004b` — course PR #17 |
-| Exemplar Gate D/E content baseline | `ae82caa0ee327cdcc237a9bb61c8f9340a1db624` — project PR #20 |
-| Review date | 18 August 2026 |
+| Course baseline after A–E preview sync | `c159c93bd3d4314f05be04e44b07b3e3c2c8b736` — course PR #18 |
+| Exemplar A–E content baseline | `b4f36f1e8fe141a65b5b03b5190a8a535ea112ff` — project PR #22 |
+| Review date | 19 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
-| Current paired increment | Project PR #20 adds the Gate D synthetic case/instructor `revise` decision and Gate E provisional hybrid strategy; course PR #17 teaches decision alignment and objective-dependent strategy |
-| Current result | Both repositories separate fictional data and instructor preference from the independent TA, scoring, sensitivity, loan/quotation/reference, real site and prototype evidence still required |
-| Next review trigger | Independent TA Gate D response, Gate E independent scores/sensitivity and loan/quotation/reference evidence, real site walk if deploying, prototype/test milestone, course-stage/template change or stale link |
+| Current paired increment | Project PR #22 completes the A–E teaching preview; course PR #18 links the overview and compares completed Issue #3 with open Issue #4 |
+| Current result | Both repositories select the conditional hybrid teaching direction and label fictional Gate C–E layers separately from real operational evidence |
+| Next review trigger | Real TA/site/reference/quotation evidence, sensor/power/prototype milestone, course-stage/template change or stale link |
 
 ## Current teaching use
 
-The course repository's first formal GitHub active-learning exercise points students to [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3). Students critique the Issue and observe the Issue–branch–commit–Pull Request evidence chain; they do not modify this repository during that exercise.
+The course repository's first formal GitHub active-learning exercise compares completed [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3) with open [Issue #4](https://github.com/heqihao522828-crypto/solar-weather-station/issues/4). Students observe why a bounded Issue can close while the engineering project continues; they do not modify this repository during that exercise.
 
 The live teaching example must therefore preserve seven distinctions:
 
 1. the instructor's supervised field-readiness decision is supported by VAL-001;
 2. a real TA's workflow requirements are supported by VAL-002, but operational executability is not proven until T-077/T-078 are completed;
 3. VAL-003 and the official enquiry route prepare Gate C, while the completed Candidate A/B response is explicitly synthetic teaching input;
-4. VAL-004 records the instructor's Gate D `revise` decision, while independent TA alignment T-082 remains open;
-5. VAL-005 records a provisional hybrid strategy, while final Gate E scoring/sensitivity and reality checks T-083 remain open;
+4. VAL-004 records the instructor's Gate D `revise` decision; the fictional TA/alignment completes the classroom presentation while real T-082 remains open;
+5. VAL-005 and the fictional sensitivity workshop select the conditional hybrid teaching direction, while real participant/procurement/reference checks T-083 remain open;
 6. the Tam Wing Fan Innovation Wing One candidate point, formal authority, reference access, thresholds and prototype performance remain open; and
-7. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
+7. the validation plan/record shows why Issue #3 can close for its landscape-study scope without closing the operational tests or project.
 
 Course activity: [GitHub active-learning starter](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology/blob/main/activities/github-active-learning-starter.md).
 
@@ -64,3 +64,4 @@ Not every review requires edits in both repositories. Record `not affected` in t
 5. Merge only after linked claims, paths and statuses are consistent.
 
 The full policy is maintained in the course repository at `docs/exemplar-sync-policy.md`.
+
