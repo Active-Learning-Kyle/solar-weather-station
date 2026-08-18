@@ -2,6 +2,14 @@
 
 Store written permission in an approved controlled system when it contains personal or security-sensitive information. Record only the role, decision, limitations and controlled reference here.
 
+## Initial enquiry route — confirmed, not approval
+
+- **Official general contact:** Innovation Wing Office — `innowing@hku.hk`
+- **Official management context:** Tam Wing Fan Innovation Wing is managed by HKU's Faculty of Engineering.
+- **Official access baseline:** Innovation Wing is not open access; registered-member and after-hours arrangements apply.
+- **Still unknown:** whether the exact outdoor point is controlled by Innovation Wing, the final site approver, and which additional building/Estates/safety route applies.
+- **Sources:** [contact](https://innowings.engg.hku.hk/innowing1/contact/) and [membership/access](https://innoacademy.engg.hku.hk/membership/) pages, checked 18 August 2026.
+
 ## Authority and permission
 
 | Item | Confirmed record |

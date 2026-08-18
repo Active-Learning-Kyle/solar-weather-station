@@ -6,6 +6,16 @@ Use this pack with the responsible Innovation Wing/HKU site staff. It turns a pr
 
 1. [Candidate-site walk and comparison](candidate-site-walk.md) — inspect Candidate A/B, physical/environmental conditions, public risk, network and reference resources.
 2. [Approval, access and response record](site-approval-and-access.md) — identify the managing unit, exact approver, written permission route and operating constraints.
+3. [Site-walk request](site-walk-request.md) — a ready-to-review outreach draft for the official Innovation Wing contact route.
+
+## Confirmed initial routing evidence
+
+Official Innovation Wing pages identify the facility as managed by HKU's Faculty of Engineering and provide `innowing@hku.hk` as the general Innovation Wing contact. They also state that Innovation Wing is not open access and that only registered members may access its facilities/services; an official page describes a separate application route for eligible affiliated groups seeking after-hours studio access.
+
+These facts validate the **initial enquiry route** and the need to confirm access. They do not establish that an adjacent outdoor candidate point is controlled by Innovation Wing, that a particular person is the final approver, or that this test is permitted.
+
+- [Official Innovation Wing contact page](https://innowings.engg.hku.hk/innowing1/contact/)
+- [Official membership/access page](https://innoacademy.engg.hku.hk/membership/)
 
 ## Completion rule
 

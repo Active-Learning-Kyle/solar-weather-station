@@ -151,6 +151,7 @@ A repeated difference beyond the relevant manufacturer specification triggers in
 
 - The intended deployment boundary is now clear enough to conduct a structured site walk.
 - Site ownership, exact approver, exact point, footprint, access, mounting permission, weather response and reference availability remain unknown—not silently assumed.
+- Official HKU pages confirm the Innovation Wing Office (`innowing@hku.hk`) as the initial enquiry route, Faculty of Engineering management context and restricted/member access. They do not confirm ownership or approval of an adjacent outdoor point.
 - The [Gate C site-validation pack](../../tests/site-validation-pack/README.md) is the execution record for the site gatekeeper and walk.
 - Gate C and Issue #3 remain open. No site approval or deployment readiness is claimed.
 

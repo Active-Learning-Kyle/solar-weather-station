@@ -122,7 +122,7 @@ Only after Gates A–D:
 - [x] At least one TA workflow interview completed — VAL-002, participant role confirmed by the instructor on 18 August 2026.
   - The interview validates workflow needs; T-077 still requires a supervised dry run before deployment.
 - [ ] Site gatekeeper and permission route identified; candidate-site walk completed.
-  - VAL-003 records instructor pre-walk requirements only. Complete the [site-validation pack](../../tests/site-validation-pack/README.md) with responsible site staff before checking this item.
+  - VAL-003 records instructor pre-walk requirements and the official Innovation Wing Office initial enquiry route only. Complete the [site-validation pack](../../tests/site-validation-pack/README.md) with responsible site staff before checking this item.
 - [x] Decision outcomes, qualitative stop conditions and first-run evidence needs agreed — numeric thresholds remain for Gate D.
 - [ ] Reference/loan options and data-access needs checked.
 - [ ] Tabletop decision test completed and disagreements recorded.
