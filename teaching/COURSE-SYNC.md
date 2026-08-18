@@ -12,24 +12,25 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Item | Reviewed value |
 |---|---|
 | Course repository | `heqihao522828-crypto/ENGG2202-Green-Technology` |
-| Course baseline after Gate B sync | `b443dd4b4fafc9364391bd7ff7ec0e9b9d7c01d9` — course PR #14 |
-| Exemplar Gate B content baseline | `29949e28526a021f84d31358e114251b1fa0ebf8` — project PR #16 |
+| Course baseline after Gate C teaching sync | `7c915d15c324381961695c4e5f6c7e37eccd6b5d` — course PR #15 |
+| Exemplar Gate C teaching baseline | `b5108fb76725ea4666476b7e798237ed496e3654` — project PR #18 |
 | Review date | 18 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
-| Current paired increment | Project PR #16 completes the Gate B TA interview and operations pack; course PR #14 explains the Gate A/B method and links the pack without copying engineering evidence |
-| Current result | Both repositories now show the real-TA interview as completed while clearly retaining the supervised workflow dry run, site/authority, reference, thresholds and prototype performance as open evidence |
-| Next review trigger | Supervised TA dry run, site walk, reference/quotation evidence, tabletop/matrix re-score, prototype/test milestone, course-stage/template change or stale link |
+| Current paired increment | Project PR #18 adds the Gate C site workflow and synthetic completed example; course PR #15 teaches how the fictional site conditions reshape the design without representing permission |
+| Current result | Both repositories label the Candidate A/B decision as synthetic/not permission and retain real site authority, T-079–T-081, TA dry run, reference, thresholds and prototype performance as open evidence |
+| Next review trigger | Real site walk if deployment proceeds, supervised TA dry run, reference/quotation evidence, Gate D tabletop, Gate E matrix re-score, prototype/test milestone, course-stage/template change or stale link |
 
 ## Current teaching use
 
 The course repository's first formal GitHub active-learning exercise points students to [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3). Students critique the Issue and observe the Issue–branch–commit–Pull Request evidence chain; they do not modify this repository during that exercise.
 
-The live teaching example must therefore preserve four distinctions:
+The live teaching example must therefore preserve five distinctions:
 
 1. the instructor's supervised field-readiness decision is supported by VAL-001;
 2. a real TA's workflow requirements are supported by VAL-002, but operational executability is not proven until T-077/T-078 are completed;
-3. the Tam Wing Fan Innovation Wing One candidate point, formal authority, reference access, thresholds and prototype performance remain open; and
-4. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
+3. VAL-003 and the official enquiry route prepare Gate C, while the completed Candidate A/B response is explicitly synthetic teaching input;
+4. the Tam Wing Fan Innovation Wing One candidate point, formal authority, reference access, thresholds and prototype performance remain open; and
+5. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
 
 Course activity: [GitHub active-learning starter](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology/blob/main/activities/github-active-learning-starter.md).
 
