@@ -24,7 +24,7 @@ They must be reviewed together wherever one repository makes a claim about the o
 
 The course repository's first formal GitHub active-learning exercise compares completed [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3), completed [Issue #4](https://github.com/heqihao522828-crypto/solar-weather-station/issues/4) and open measured-power [Issue #5](https://github.com/heqihao522828-crypto/solar-weather-station/issues/5). Students observe why research/decision scopes may close while generated values cannot satisfy a measurement Issue; they do not modify this repository during that exercise.
 
-The live teaching example must therefore preserve seven distinctions:
+The live teaching example must therefore preserve eight distinctions:
 
 1. the instructor's supervised field-readiness decision is supported by VAL-001;
 2. a real TA's workflow requirements are supported by VAL-002, but operational executability is not proven until T-077/T-078 are completed;
