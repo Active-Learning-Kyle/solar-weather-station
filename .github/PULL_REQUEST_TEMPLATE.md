@@ -20,3 +20,10 @@ Link the Issue, requirement, evidence, or design decision.
 
 State what remains unverified or out of scope.
 
+## ENGG2202 course-hub impact
+
+- [ ] I reviewed whether this change affects `ENGG2202-Green-Technology`.
+- [ ] The paired Issue / Pull Request is linked below, or I explained why the course hub is not affected.
+- [ ] Course links, project status and teaching-stage mapping were checked.
+
+Paired Issue / Pull Request or `not affected` rationale:

@@ -15,6 +15,8 @@ It records not only the proposed solution, but also the green problem/baseline, 
 
 > [中文 GitHub 导览：每个页面和文件为什么存在](docs/GITHUB-GUIDE-ZH.md)
 
+> [Course–exemplar synchronisation record](teaching/COURSE-SYNC.md): when the project changes, check whether the ENGG2202 teaching example must change too—and vice versa.
+
 ## Why this project?
 
 Regional weather data does not always represent the microclimate where an engineering decision is made. The provisional first use is a controlled outdoor test point adjacent to HKU's Tam Wing Fan Innovation Wing One, where the ENGG2202 teaching team can judge whether a student environmental-monitoring prototype and its sensor/power/enclosure configuration are ready for a short field deployment. The exact mounting point, permission and stakeholder workflow still require validation.
