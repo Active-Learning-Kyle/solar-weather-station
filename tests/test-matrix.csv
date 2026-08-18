@@ -1,10 +1,15 @@
 test_id,requirement_id,subsystem,test_name,acceptance_criteria,method,evidence,status,owner,notes
-T-SNS-001,SYS-01,sensing,Sensor communication and units,TBD,Bench test,,planned,,Lock sensor first
-T-PWR-001,PWR-01,power,Operating-mode current profile,TBD,Instrumented measurement,,planned,,Measure sleep sampling transmission and fault states
-T-PWR-002,PWR-01,power,Solar battery autonomy,TBD,Energy budget plus endurance test,,planned,,Define autonomy target
-T-COM-001,SYS-01,communications,RS-485 link reliability,TBD,Repeated messages over defined cable length,,planned,,Define cable length baud and error threshold
-T-ENV-001,ENV-01,mechanical,Outdoor ingress and condensation risk,TBD,Inspection and controlled exposure,,planned,,Do not claim an IP rating without the proper standard test
-T-INT-001,DAT-01,system,Integrated data logging,TBD,Timed integrated run,,planned,,Check timestamps units missing values and recovery
-T-FLD-001,PWR-01,system,72-hour outdoor validation,TBD,Outdoor deployment,,not started,,Pre-register criteria and versions
-T-REP-001,REP-01,reproducibility,Independent rebuild,TBD,New builder follows released files,,not started,,Target a later release
-
+T-001,DOC-001;REP-001,firmware,ESP32-S3 clean build and flash,Fresh checkout compiles and flashes without manual source edits,Clean-environment build and flash,CI log and build instructions,planned,,Exact board SKU and toolchain must be locked
+T-010,COM-001,communications,RS-485 wind-speed bench test,100 consecutive valid polls with no CRC or timeout errors under documented bench wiring,Record raw request and response frames,Serial log and raw frames,planned,,Define sensor model serial settings register scale and cable
+T-011,COM-001,communications,RS-485 wind-direction heading test,Known headings map to correct degrees or directions,Rotate to controlled compass headings,Heading test table,planned,,Repository evidence needed despite reported prior success
+T-012,COM-001,communications,Modbus ID change,New ID persists after power cycle and does not collide with second sensor,Address tool plus two-device bus test,Tool output and configuration file,planned,,Document recovery from duplicate IDs
+T-020,GNSS-001,GNSS,TEL0157 communication,Module is detected and data fields are readable,Bench diagnostic,Diagnostic log,planned,,No-fix is not the same as communication failure
+T-021,GNSS-001,GNSS,TEL0157 outdoor fix,Valid UTC date/time and non-zero position outdoors,Outdoor sky-view acquisition test,Diagnostic log with location-redaction guidance,planned,,Record time-to-first-fix and power policy
+T-030,SYS-001,sensing,UV response,Output changes monotonically under controlled UV exposure and calibration is stored,Controlled source/comparison test,Calibration CSV and plot,blocked,,Baseline UV sensor and optical path not selected
+T-040,PWR-001,power,Solar-manager power output,ESP32 runs from documented solar-manager and battery path,Voltage/current and interruption/recovery test,Voltage/current table and recovery log,planned,,Document dedicated 5 V output and protection
+T-041,PWR-002,power,Operating and sleep profile,Complete-system sleep and active-state currents are documented,Instrumented current measurement,Current measurement table,planned,,Include network sensor GNSS and fault states
+T-042,PWR-003,power,Battery-only endurance,Measured runtime meets or exceeds the approved engineering target,Charged battery endurance test,Endurance log,planned,,Three-day value is a planning target until confirmed
+T-050,ENV-001,mechanical,Enclosure assembly cycles,20 open-close cycles without latch damage or loss of fit,Repeated assembly inspection,Photos and notes,planned,,Record CAD and material revision
+T-051,ENV-002,mechanical,Controlled water-ingress test,No water reaches protected electronics after defined unpowered spray test,Unpowered controlled exposure,Procedure photos and inspection record,planned,,No formal IP rating claim
+T-060,DAT-001,network,Network outage and recovery,Local data collection continues and reconnect succeeds without reset loop,Forced outage during logging,Event log and data-gap analysis,planned,,Local-first buffering required
+T-070,FLD-001,system,72-hour outdoor validation,No unexplained resets bus lockups severe sensor anomalies loose wiring enclosure leak or corrupted data,Versioned field deployment,Field CSV and test report,not started,,Tracked by Issue #6

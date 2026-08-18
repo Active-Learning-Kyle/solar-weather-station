@@ -49,9 +49,9 @@ The diagram is deliberately high-level. Pin assignments, electrical interfaces, 
 
 | Area | Status | Evidence needed next |
 |---|---|---|
-| Problem and project foundation | Documented in the original v0.1 PDF | Import the source PDF into `docs/source-documents/` |
-| Solution landscape | In progress | Compare commercial and open-source alternatives |
-| Reference-project lineage | Identified in the source foundation | Add exact links, versions, reused files, and licences |
+| Problem and project foundation | [Original v0.1 PDF imported](docs/source-documents/Solar_Weather_Station_Project_Foundation_v0.1.pdf) | Maintain traceability as the living documents evolve |
+| Solution landscape | First evidence-backed comparison completed | Validate the target user/use case and update quotations before concept lock |
+| Reference-project lineage | Exact project links and observed licences recorded | Lock immutable commits before any file reuse |
 | ESP32-S3 architecture | Proposed | Add wiring, firmware, and bench-test evidence |
 | Environmental sensor | Pending decision | Selection matrix and calibration plan |
 | Power subsystem | Proposed | Measured load profile and solar energy budget |
@@ -111,6 +111,12 @@ Until those instructions and tests are complete, treat this repository as a **wo
 
 These ranges must be replaced or supported by quotations in [`bom/bom.csv`](bom/bom.csv).
 
+## Project baselines
+
+- [Solar Weather Station Project Foundation v0.1](docs/source-documents/Solar_Weather_Station_Project_Foundation_v0.1.pdf) - immutable 26-page engineering baseline dated 14 August 2026.
+- [Foundation traceability record](docs/source-documents/FOUNDATION-TRACEABILITY.md) - maps source sections and claims into the living repository.
+- The ENGG2202 course template is retained under `teaching/source-documents/` as an internal course-design reference. Review its distribution status before making this repository public.
+
 ## Contributing
 
 Ideas, test results, sensor comparisons, documentation improvements, and design reviews are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and open an Issue before making a major design change.
@@ -122,4 +128,3 @@ The final licence has not yet been selected because third-party firmware and har
 ## Safety
 
 Outdoor electrical systems, rechargeable batteries, fabrication tools, and elevated mounting introduce real hazards. Risk assessment, supervision, weather protection, strain relief, fusing, and appropriate test procedures are required. This repository does not replace professional engineering judgement.
-
