@@ -169,7 +169,7 @@ The [synthetic completed Gate C example](../../tests/site-validation-pack/synthe
 - **Participant role:** instructor / deployment-decision owner
 - **Input:** fictional [`SYNTH-D-01`](../../tests/tabletop-decision-pack/synthetic-72h-case.md); no prototype data
 - **Recorded response:** [`revise`](../../tests/tabletop-decision-pack/instructor-response.md)
-- **Gate status:** instructor response complete; independent TA response/alignment remains open
+- **Gate status:** instructor response complete; synthetic role-play completes the teaching example, while real TA response/alignment remains open
 
 ### Decision evidence
 
@@ -197,7 +197,7 @@ The required path is targeted modification, bench requalification and then a new
 - **Participant role:** instructor / decision stakeholder
 - **Input:** qualitative comparison of buy, borrow, adapt and independent build routes
 - **Detailed record:** [provisional Gate E re-score](gate-e-provisional-rescore.md)
-- **Gate status:** instructor preference recorded; final workshop remains open
+- **Gate status:** instructor preference recorded; synthetic workshop completes the teaching example, while real procurement/participant validation remains open
 
 ### Provisional outcome
 
@@ -211,6 +211,10 @@ The student research question therefore shifts from “can we build a weather st
 ### Claim boundary and remaining evidence
 
 Solar power alone does not establish Green Technology or ESG value. Energy, solar contribution, battery, materials, repairability, modularity, lifetime, reuse and comparative problem/impact evidence remain required. Final Gate E also requires Gate D alignment, independent scoring, sensitivity, current loan/quotation evidence and a selected comparison method.
+
+### Synthetic completion layer — not stakeholder evidence
+
+The [fictional TA response and alignment](../../tests/tabletop-decision-pack/synthetic-alignment-review.md) complete Gate D for classroom presentation. The [fictional Gate E workshop](gate-e-synthetic-workshop.md) demonstrates independent perspectives and two sensitivity checks. Neither is assigned a `VAL` identifier because no stakeholder supplied it. T-082 and T-083 remain blocked until real participants and current operational/procurement evidence replace the simulations.
 
 ---
 
@@ -268,3 +272,4 @@ Copy this section for each session. Record role-based evidence without unnecessa
 - What did the team expect that the participant contradicted?
 - What remains preference rather than evidence?
 - What decision can now be made that could not be made before?
+

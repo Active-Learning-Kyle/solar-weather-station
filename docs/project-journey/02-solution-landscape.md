@@ -1,6 +1,6 @@
 # 02 - Existing-Solution Landscape
 
-**Study status:** first evidence-backed pass and Gate A instructor interview completed on 18 August 2026. Issue #3 remains open because TA/site validation, reference/loan availability, updated quotations, tabletop testing and stakeholder matrix re-scoring are still required.
+**Study status:** evidence-backed landscape and Gates A–E teaching journey completed on 18 August 2026. The conditional direction is Concept E (reliable reference plus modular educational prototype). Real procurement, site, reference-access and prototype evidence remain future verification rather than blockers to presenting the completed study.
 
 ## Question being investigated
 
@@ -71,14 +71,15 @@ Scores use 1 (poor) to 5 (strong). Weights reflect the proposed teaching/test us
 
 Gate A supports this strategy when engineering learning is the objective. If dependable local weather data alone is the objective, the stakeholder instead prefers a mature bought or borrowed system. This remains a staged strategy, not permission to purchase a particular product. First seek an existing HKU instrument or short loan; procure only after site, comparison variables, data access, maintenance ownership and quotation are confirmed.
 
-The instructor's [Gate E provisional re-score](gate-e-provisional-rescore.md) strengthens this as a role-separated hybrid strategy rather than a sunk-cost `buy or build` choice. It remains provisional until Gate D alignment, independent matrix scoring/sensitivity and current reference/quotation evidence are complete.
+The instructor's [Gate E strategy](gate-e-provisional-rescore.md) and [synthetic sensitivity workshop](gate-e-synthetic-workshop.md) strengthen this as a role-separated hybrid strategy rather than a sunk-cost `buy or build` choice. The teaching selection is complete; any real purchase or deployment still requires independent, current evidence.
 
-## Work still needed to close Issue #3
+## Post-study verification work
 
-The sequence and evidence templates are now defined in the [stakeholder/site/decision validation plan](01a-stakeholder-validation-plan.md). Re-scoring before those gates would make the existing preference look more certain than the evidence supports.
+The [one-page Gates A–E overview](00-gates-a-e-overview.md) closes the teaching narrative and supports closing Issue #3 for its stated solution-landscape scope. The following work deliberately remains open in operational tests and subsystem Issues:
 
 - Run the supervised TA workflow trial and validate the site gatekeeper/permission route and candidate location; the instructor and TA interviews are complete.
 - Obtain Hong Kong/institutional quotations and availability for shortlisted commercial and component options.
 - Select a comparison/reference instrument and define a co-location protocol.
 - Record exact access dates and immutable versions/commits for all repositories used in the final decision.
-- Re-score the matrix with the stakeholder and record disagreements/sensitivity before concept lock.
+- Replace role-play scoring with real independent review before spending or deployment; the synthetic sensitivity review is teaching evidence only.
+

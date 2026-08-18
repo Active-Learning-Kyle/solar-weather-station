@@ -1,6 +1,6 @@
 # Gate D Tabletop Decision Pack
 
-**Status:** synthetic case and instructor response complete; an independent TA response and alignment review remain required.
+**Status:** teaching simulation complete; real independent TA validation remains optional future evidence and is not implied by the role-play.
 
 This pack tests the decision system, not the weather station. All operating data are fictional and must never be cited as prototype performance.
 
@@ -8,6 +8,8 @@ This pack tests the decision system, not the weather station. All operating data
 2. [Instructor response](instructor-response.md) — `revise`, with mandatory actions before another field run.
 3. [Independent TA response form](ta-independent-response.md) — complete without reading the instructor response.
 4. [Decision-alignment review](alignment-review.md) — compare safety level, continuation permission and decision authority.
+5. [Synthetic TA role-play response](synthetic-ta-roleplay-response.md) — fictional completed example, never real stakeholder evidence.
+6. [Synthetic alignment review](synthetic-alignment-review.md) — completed classroom model using the fictional TA role.
 
 ## Gate D completion rule
 
@@ -20,3 +22,6 @@ Gate D is complete when:
 - the synthetic case remains visibly separated from real test evidence.
 
 The participants do not need to propose the same technical repair. Agreement is required at the decision-control level.
+
+For the current “show the whole journey” teaching preview, items 5–6 demonstrate a completed Gate D. For real operational validation, use items 3–4 with a real TA; T-082 remains blocked until that occurs.
+

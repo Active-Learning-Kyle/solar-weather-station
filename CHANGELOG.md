@@ -27,6 +27,7 @@ All notable project changes will be recorded here.
 - Added Gate C instructor pre-walk requirements and a site-validation pack covering authority, reversible mounting, access, public/security risk, environmental bias, network/local logging, weather response and reference-instrument enquiry without claiming site approval.
 - Added a prominently labelled synthetic Gate C completion example for ENGG2202 discussion, including a rejected open-site candidate and a conditionally selected controlled candidate without representing fictional content as HKU permission.
 - Added Gate D synthetic tabletop data, instructor `revise` decision and independent TA alignment form, plus a provisional Gate E hybrid reference-plus-educational-prototype strategy with final scoring/evidence gates left open.
+- Completed the Gates A–E teaching preview with a prominently labelled fictional TA response/alignment, Gate E sensitivity workshop and one-page decision journey; real deployment and procurement evidence remain open.
 - Converted narrative success criteria into requirement IDs and matching verification tests.
 - Clarified the evidence level of reported prototype progress and unresolved design decisions.
 - Expanded reference-project licensing and reuse boundaries.
@@ -38,3 +39,4 @@ All notable project changes will be recorded here.
 ### Added
 
 - Initial Private repository foundation.
+

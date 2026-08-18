@@ -1,6 +1,6 @@
 # Gate E — Provisional Instructor Re-score and Hybrid Strategy
 
-**Status:** instructor strategy input recorded; final Gate E remains open until Gate D alignment, independent scoring, sensitivity, reference access and current cost/availability evidence are complete.
+**Status:** instructor strategy recorded and the teaching simulation completed in the [synthetic workshop](gate-e-synthetic-workshop.md). Real strategy validation remains open until independent participants, reference access and current cost/availability evidence are recorded.
 
 ## Avoiding sunk-cost bias
 
@@ -58,7 +58,7 @@ A solar panel does not by itself earn a sustainability advantage. Future Green T
 
 Until then, describe the project as a platform for learning and exploring low-power environmental sensing and sustainable engineering design—not as a proven Green Technology or ESG solution.
 
-## Evidence required before final Gate E
+## Evidence required before a real procurement/deployment decision
 
 - independent TA completion/alignment for Gate D;
 - independent matrix scores and recorded disagreements;
@@ -67,3 +67,6 @@ Until then, describe the project as a platform for learning and exploring low-po
 - selected commercial/reference instrument and comparison method;
 - real site evidence if physical deployment is pursued; and
 - a dated revisit trigger if prototype accuracy, safety, maintenance or educational value changes.
+
+The teaching exemplar now selects Concept E conditionally. This closes the narrative choice for students without converting simulated review into purchase, permission or performance evidence.
+
