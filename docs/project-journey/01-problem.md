@@ -25,7 +25,7 @@ The project has an educational role and an engineering role. Treating them as th
 
 The executable interview, site-walk and decision-test workflow is in [Issue #3 — Stakeholder, Site and Decision Validation Plan](01a-stakeholder-validation-plan.md). Use the [validation record](stakeholder-validation-record.md) for each session.
 
-1. Interview at least one TA about the field workflow and test the stated role model/checklist in practice.
+1. Run the VAL-002 workflow with a TA in a supervised dry run; record actual timing, access, interpretation and escalation friction.
 2. Walk the Innovation Wing One candidate area with the responsible staff member and record permission, access, mounting, exposure, network, security, maintenance and safety constraints.
 3. Ask a small student/TA group to use the exemplar links during one checkpoint and identify what they can and cannot understand.
 4. Define what outcome would change the decision: deploy, revise configuration, return to bench testing or buy/borrow a reference instrument.
