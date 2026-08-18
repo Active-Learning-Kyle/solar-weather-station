@@ -122,6 +122,40 @@ A repeated difference beyond the relevant manufacturer specification triggers in
 
 ---
 
+## VAL-003 — Gate C instructor pre-walk requirements
+
+### Session metadata
+
+- **Date / mode:** 18 August 2026 / asynchronous written response
+- **Participant role:** course instructor and deployment-decision owner; not the site gatekeeper
+- **Facilitator / note taker:** OpenAI Codex structured the participant's written answers
+- **Consent boundary:** written notes and paraphrase only; site photos, names, access details and exact location require separate permission and data minimisation
+- **Related Issue:** [#3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3)
+- **Gate status:** pre-walk requirements complete; Gate C remains open until the responsible site staff confirms the permission route and candidate-site record
+
+### Pre-walk evidence
+
+| Area | Instructor evidence / requirement | What the site gatekeeper must confirm |
+|---|---|---|
+| Candidate types | Candidate A is a more open outdoor point for fuller exposure; Candidate B is a more controlled semi-open point with less public contact for the first 72-hour run. No exact point is selected. | Exact points, ownership boundary, permitted use and preferred first-test candidate. |
+| Authority and permission | Instructor approval covers technical/teaching readiness but is insufficient for use of an HKU location. Innovation Wing technical staff is the first contact; Faculty, building management, Estates or safety review may also apply. Written confirmation is preferred over verbal permission alone. | Managing unit, final approver, escalation path, required form/email/record and any higher approval. |
+| Duration, footprint and access | The first run is temporary and continuous for 72 hours, with a small footprint, no main-route obstruction, no permanent modification and rapid safe removal. Normal, after-hours and emergency access are unknown. | Maximum duration/footprint, boundary/signage, access hours, escort/key/registration, after-hours entrant and emergency removal authority/response. |
+| Mounting and wind load | Prefer a freestanding tripod/weighted base, then added ballast; use a clamp only where explicitly approved. No drilling or unapproved structural attachment. Review centre of gravity, cables, fall zone and the solar panel as a wind-load surface. | Permitted mounting method/surface, height/load limits, ballast/clamp restrictions, fall zone and building-structure constraints. |
+| Public and information security | Prefer a point people cannot readily touch. Protect batteries, live electronics, power wiring, unstable/moving or hot parts; remove trip, sharp-edge, pinch, tamper and theft risks. Do not publish exact coordinates, access routes or security-sensitive details by default. | Required boundary/signage/enclosure/security, acceptable public separation and what site/location information may be retained or published. |
+| Environmental usefulness and bias | Require some direct sun for solar-cycle evidence and usable sky view for GNSS. Document shadow, building/tree obstruction, wind turbulence, natural versus drainage/irrigation/cleaning water and local heat/exhaust/reflective surfaces. This is not a claim of formal meteorological siting. | Observed exposure/bias, restricted zones and whether each candidate can support the named first-test questions. |
+| Network and monitoring | Stable Wi-Fi is desirable but not a deployment prerequisite when timestamps and local logging continue. Personal hotspot/cellular use is not assumed. Remote status supports but does not replace daily physical inspection. | Permitted network options/policy, coverage test, access method and how an outage affects safe operation/retrieval. |
+| Weather, inspection and response | Students make the daily basic check; TA verifies records; instructor decides non-immediate continuation. Hong Kong Observatory forecasts/warnings inform planning. No invented numeric cut-off is claimed before structural/site review. Students must not assume night access. | Site-specific weather stop/retrieval rules, inspection times, after-hours contact, remote isolation option and maximum safe retrieval response. |
+| Evidence and reference | Retain permitted candidate photos, sketch, footprint/orientation, mounting/fall zone, circulation, shadow/sky/wind/water/heat observations, network result, hazards, install/removal route and staff restrictions. Ask whether a commercial station or handheld reference can be borrowed. | Photo/sketch permission, sensitive-information limits, approved record, reference-instrument availability and owner. |
+
+### Gate C preparation outcome
+
+- The intended deployment boundary is now clear enough to conduct a structured site walk.
+- Site ownership, exact approver, exact point, footprint, access, mounting permission, weather response and reference availability remain unknown—not silently assumed.
+- The [Gate C site-validation pack](../../tests/site-validation-pack/README.md) is the execution record for the site gatekeeper and walk.
+- Gate C and Issue #3 remain open. No site approval or deployment readiness is claimed.
+
+---
+
 ## Reusable blank session template
 
 Copy this section for each session. Record role-based evidence without unnecessary personal data.

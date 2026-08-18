@@ -24,6 +24,7 @@ All notable project changes will be recorded here.
 
 - Completed the Gate A instructor interview and translated its field-readiness decision, stop controls, evidence/reference priorities, responsibility model, buy/build rule and sustainability-claim boundary into requirements, tests and a three-stage field checklist without claiming the current system passes.
 - Completed the Gate B TA workflow interview and added a concise field-operations pack with explicit stop/escalation actions, timing, expected-behaviour fields, contacts/access/tools readiness and supervised dry-run tests.
+- Added Gate C instructor pre-walk requirements and a site-validation pack covering authority, reversible mounting, access, public/security risk, environmental bias, network/local logging, weather response and reference-instrument enquiry without claiming site approval.
 - Converted narrative success criteria into requirement IDs and matching verification tests.
 - Clarified the evidence level of reported prototype progress and unresolved design decisions.
 - Expanded reference-project licensing and reuse boundaries.

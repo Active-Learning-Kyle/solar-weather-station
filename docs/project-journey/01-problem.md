@@ -7,7 +7,7 @@ The project has an educational role and an engineering role. Treating them as th
 | Layer | Primary stakeholder | Need | Decision/action supported | Validation status |
 |---|---|---|---|---|
 | ENGG2202 exemplar | Course instructor/TA team and student project teams | A live, inspectable example of the full problem-to-release journey | Decide what evidence and project quality should be visible at each course checkpoint | Supported by the course design; usability with TAs/students still requires pilot feedback |
-| Weather-station deployment | ENGG2202 instructor responsible for the supervised prototype field-readiness decision | A transparent field reference and test platform at an accessible HKU site | Decide `go / conditional go / no-go` for a supervised 72-hour first field validation, including required configuration changes and repeat evidence | Gate A instructor interview complete; site/institutional authority, TA workflow and measured evidence remain unvalidated |
+| Weather-station deployment | ENGG2202 instructor responsible for the supervised prototype field-readiness decision | A transparent field reference and test platform at an accessible HKU site | Decide `go / conditional go / no-go` for a supervised 72-hour first field validation, including required configuration changes and repeat evidence | Gate A instructor and Gate B TA interviews complete; site/institutional authority, TA dry run and measured evidence remain unvalidated |
 
 ## Decision context confirmed; site remains provisional
 
@@ -26,7 +26,7 @@ The project has an educational role and an engineering role. Treating them as th
 The executable interview, site-walk and decision-test workflow is in [Issue #3 — Stakeholder, Site and Decision Validation Plan](01a-stakeholder-validation-plan.md). Use the [validation record](stakeholder-validation-record.md) for each session.
 
 1. Run the VAL-002 workflow with a TA in a supervised dry run; record actual timing, access, interpretation and escalation friction.
-2. Walk the Innovation Wing One candidate area with the responsible staff member and record permission, access, mounting, exposure, network, security, maintenance and safety constraints.
+2. Complete the [Gate C site-validation pack](../../tests/site-validation-pack/README.md) while walking the Innovation Wing One candidate area with the responsible staff member; record permission, access, mounting, exposure, network, security, maintenance and safety constraints.
 3. Ask a small student/TA group to use the exemplar links during one checkpoint and identify what they can and cannot understand.
 4. Define what outcome would change the decision: deploy, revise configuration, return to bench testing or buy/borrow a reference instrument.
 5. Identify the maintainer and response when data, power or enclosure evidence fails.
