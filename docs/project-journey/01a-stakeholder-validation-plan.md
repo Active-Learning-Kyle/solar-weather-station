@@ -1,6 +1,6 @@
 # Issue #3 — Stakeholder, Site and Decision Validation Plan
 
-**Status:** Gates A and B interviews completed; Gate C teaching simulation and pre-walk pack prepared, but real site walk/approval and Gates D–E remain open
+**Status:** Gates A/B interviews completed; Gate C teaching simulation prepared; Gate D instructor decision and Gate E provisional instructor strategy recorded, while TA alignment, real site evidence and final Gate E remain open
 **Issue:** [#3 Complete the existing-solution landscape study](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3)  
 **Purpose:** validate the decision context before re-scoring or locking the buy/adapt/build strategy
 
@@ -127,7 +127,9 @@ Only after Gates A–D:
 - [x] Decision outcomes, qualitative stop conditions and first-run evidence needs agreed — numeric thresholds remain for Gate D.
 - [ ] Reference/loan options and data-access needs checked.
 - [ ] Tabletop decision test completed and disagreements recorded.
+  - VAL-004 records the instructor's `revise` decision on `SYNTH-D-01`; complete the independent [TA response and alignment](../../tests/tabletop-decision-pack/README.md) before checking this item.
 - [ ] Matrix criteria/weights re-scored with stakeholder input and sensitivity reviewed.
+  - VAL-005 records the instructor's provisional hybrid strategy; independent scoring, sensitivity, quotations/loan access and Gate D completion remain required.
 - [ ] Hong Kong/institutional cost and availability evidence added.
 - [ ] `01-problem.md`, `02-solution-landscape.md` and the Issue comment updated with findings.
 
