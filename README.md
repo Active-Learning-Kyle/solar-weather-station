@@ -54,7 +54,7 @@ The diagram is deliberately high-level. Pin assignments, electrical interfaces, 
 | Area | Status | Evidence needed next |
 |---|---|---|
 | Problem and project foundation | [Original v0.1 PDF imported](docs/source-documents/Solar_Weather_Station_Project_Foundation_v0.1.pdf) | Maintain traceability as the living documents evolve |
-| Solution landscape | Gates A/B completed; Gate C teaching example prepared; Gate D [synthetic case and instructor `revise` decision](tests/tabletop-decision-pack/README.md) plus Gate E [provisional hybrid strategy](docs/project-journey/gate-e-provisional-rescore.md) recorded | Obtain an independent TA Gate D response, real site evidence if deploying, reference/quotation data and an independent Gate E re-score/sensitivity review before concept lock |
+| Solution landscape | [Gates A–E teaching journey complete](docs/project-journey/00-gates-a-e-overview.md); conditional hybrid reference-plus-educational-prototype direction selected | Treat real TA/site/reference/quotation evidence and prototype validation as future verification, never as completed by the simulations |
 | Reference-project lineage | Exact project links and observed licences recorded | Lock immutable commits before any file reuse |
 | ESP32-S3 architecture | Proposed | Add wiring, firmware, and bench-test evidence |
 | Environmental sensor | Pending decision | Selection matrix and calibration plan |
@@ -66,6 +66,7 @@ The diagram is deliberately high-level. Pin assignments, electrical interfaces, 
 
 The engineering narrative is split into reviewable steps:
 
+0. [One-page Gates A–E decision overview](docs/project-journey/00-gates-a-e-overview.md)
 1. [Problem identification](docs/project-journey/01-problem.md)
 2. [Existing-solution landscape](docs/project-journey/02-solution-landscape.md)
 3. [Reference projects](docs/project-journey/03-reference-projects.md)
@@ -132,3 +133,4 @@ The final licence has not yet been selected because third-party firmware and har
 ## Safety
 
 Outdoor electrical systems, rechargeable batteries, fabrication tools, and elevated mounting introduce real hazards. Risk assessment, supervision, weather protection, strain relief, fusing, and appropriate test procedures are required. This repository does not replace professional engineering judgement.
+
