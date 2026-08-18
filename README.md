@@ -30,7 +30,6 @@ Regional weather data does not always represent the microclimate where an engine
 ## Intended capabilities
 
 - Wind speed and wind direction
-- Temperature, humidity, and pressure
 - SHT45 temperature/humidity, BMP390 pressure and an experimental LTR390 UVA-count channel
 - GNSS time and location
 - Solar and battery operation
