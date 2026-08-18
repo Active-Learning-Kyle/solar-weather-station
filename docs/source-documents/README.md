@@ -1,10 +1,11 @@
 # Source Documents
 
-Place immutable project baselines and original proposals here.
+This folder preserves immutable project baselines. Living engineering documentation remains in Markdown so it can be reviewed and updated without rewriting history.
 
-## Pending import
+## Imported baseline
 
-- `Solar Weather Station Project Foundation v0.1.pdf` — the 26-page source document referenced during repository planning. It was not available in the current local workspace and therefore has not been fabricated or silently replaced.
+| File | Date in document | Pages | Size | SHA-256 |
+|---|---|---:|---:|---|
+| [`Solar_Weather_Station_Project_Foundation_v0.1.pdf`](Solar_Weather_Station_Project_Foundation_v0.1.pdf) | 14 August 2026 | 26 | 683,488 bytes | `5B9C8E4912BB72D155944DAA6A9AD08DF760484218518E2D32919EA9F4A0E263` |
 
-When added, record its date and relationship to the living Markdown documentation.
-
+The hash was verified after copying the user-provided PDF into the repository. See [`FOUNDATION-TRACEABILITY.md`](FOUNDATION-TRACEABILITY.md) for the relationship between the PDF and current files.

@@ -1,9 +1,15 @@
 item_id,subsystem,item,manufacturer_part_number,specification,quantity,unit_cost,currency,supplier,url,lead_time,status,alternative,notes
-CTRL-001,controller,ESP32-S3 development board,TBD,TBD,1,,,TBD,,TBD,proposed,,Lock exact board revision before firmware pin mapping
-PWR-001,power,solar panel,TBD,TBD,1,,,TBD,,TBD,proposed,,Size from measured energy budget
-PWR-002,power,battery,TBD,TBD,1,,,TBD,,TBD,proposed,,Chemistry protection and capacity require safety review
-PWR-003,power,solar power manager,TBD,TBD,1,,,TBD,,TBD,proposed,,Verify efficiency and protection
-SNS-001,sensing,environmental sensor,TBD,temperature humidity pressure and/or UV,1,,,TBD,,TBD,decision pending,,Use a documented selection matrix
-COM-001,communications,RS-485 interface,TBD,TBD,1,,,TBD,,TBD,proposed,,Verify voltage isolation termination and connector strategy
-MECH-001,mechanical,outdoor enclosure,TBD,TBD,1,,,TBD,,TBD,in development,,Include glands fasteners vents and mounting
-
+CTRL-001,controller,ESP32-S3 development board,TBD,Exact SKU and GPIO map to lock,1,,,,,,,confirmed direction,,Measure complete-board sleep current before v1.0
+COM-001,communications,3.3 V or isolated RS-485 transceiver,TBD,ESP32-S3-compatible logic with documented protection,1,,,,,,,recommended,,MAX485 was used in diagnostics but is a 5 V part
+WND-001,wind,RS-485 Modbus wind-speed sensor,TBD,Exact model register map scale and supply TBD,1,,,,,,,confirmed category,,Record configured slave ID
+WND-002,wind,RS-485 Modbus wind-direction sensor,TBD,Exact model register map scale and supply TBD,1,,,,,,,confirmed category,,Direction decoding reported working but evidence must be committed
+GNS-001,position-time,DFRobot TEL0157 with antenna,TEL0157,GPS GLONASS BeiDou via I2C or UART,1,,,,https://wiki.dfrobot.com/tel0157/,,confirmed,,Outdoor fix and power policy remain to test
+UV-001,UV,UV sensor,TBD,GUVA-S12SD class or selected modern true-UV digital sensor,1,,,,,,,decision pending,SI1145 legacy only,Validate optical path and calibration
+ENV-001,environment,Temperature humidity pressure sensor,TBD,BME280-class reference baseline,1,,,,,,,decision pending,,Compare exact parts and radiation-shield approach
+RAIN-001,rain,Tipping-bucket rain gauge,TBD,Optional first release,1,,,,,,,optional,,Defer unless target use case requires rain
+PWR-001,power,Waveshare Solar Power Manager D,TBD,6-24 V solar input 3.7 V battery regulated 5 V load,1,,,,https://www.waveshare.com/wiki/Solar_Power_Manager_%28D%29,,confirmed direction,,Lock exact board revision and protection/wiring
+PWR-002,power,Protected 3.7 V Li-ion or LiPo battery,TBD,Capacity after measured power budget,1,,,,,,,required,,Use reputable protected pack and mechanical restraint
+PWR-003,power,Solar panel,TBD,Voltage and power after measured energy budget,1,,,,,,,required,,Orient for deployment location
+MECH-001,mechanical,Custom printed enclosure set,TBD,PETG or ASA preferred with separate metrology/control/power zones,1,,,,,,,in development,,Commit CAD print settings fasteners and test revision
+MECH-002,mechanical,Cable glands strain relief and fasteners,TBD,Weather-resistant field integration,1 set,,,,,,,required,,Add drip loops labels and keyed connectors
+PROTO-001,prototype,Perfboard or prototype PCB and terminals,TBD,Development integration set,1 set,,,,,,,current prototyping,,Transition to carrier PCB later if justified

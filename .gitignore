@@ -15,3 +15,5 @@ secrets.*
 # Local raw data can be large; publish reviewed samples deliberately
 data/raw/
 
+# Local review and extraction files
+tmp/
