@@ -1,6 +1,6 @@
 # Issue #3 — Stakeholder, Site and Decision Validation Plan
 
-**Status:** Gates A and B interviews completed; Gate C instructor pre-walk requirements recorded, but site walk/approval and Gates D–E remain open
+**Status:** Gates A and B interviews completed; Gate C teaching simulation and pre-walk pack prepared, but real site walk/approval and Gates D–E remain open
 **Issue:** [#3 Complete the existing-solution landscape study](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3)  
 **Purpose:** validate the decision context before re-scoring or locking the buy/adapt/build strategy
 
@@ -123,6 +123,7 @@ Only after Gates A–D:
   - The interview validates workflow needs; T-077 still requires a supervised dry run before deployment.
 - [ ] Site gatekeeper and permission route identified; candidate-site walk completed.
   - VAL-003 records instructor pre-walk requirements and the official Innovation Wing Office initial enquiry route only. Complete the [site-validation pack](../../tests/site-validation-pack/README.md) with responsible site staff before checking this item.
+  - A [synthetic completed example](../../tests/site-validation-pack/synthetic-completed-example.md) supports teaching only and must never be counted as this checklist evidence.
 - [x] Decision outcomes, qualitative stop conditions and first-run evidence needs agreed — numeric thresholds remain for Gate D.
 - [ ] Reference/loan options and data-access needs checked.
 - [ ] Tabletop decision test completed and disagreements recorded.

@@ -2,6 +2,8 @@
 
 **Status:** instructor pre-walk requirements recorded; no candidate point, permission, access or deployment is approved.
 
+> **Teaching example:** [Synthetic completed Gate C example](synthetic-completed-example.md) shows what a plausible conditional site decision could look like. It is fictional and is not HKU/Innovation Wing permission.
+
 Use this pack with the responsible Innovation Wing/HKU site staff. It turns a promising location into reviewable evidence; it does not allow the project team to approve its own site.
 
 1. [Candidate-site walk and comparison](candidate-site-walk.md) — inspect Candidate A/B, physical/environmental conditions, public risk, network and reference resources.
@@ -30,3 +32,5 @@ Gate C is complete only when:
 - no credentials, unnecessary personal details or security-sensitive access information are placed in the repository.
 
 `Approved with conditions` is acceptable only when every condition has an owner and must be closed before deployment. A useful site without authority remains **not approved**.
+
+For ENGG2202 teaching, the synthetic example can be used to practise evidence interpretation and design revision before real access is available. Replace it with actual controlled evidence if the station proceeds to deployment.

@@ -155,6 +155,10 @@ A repeated difference beyond the relevant manufacturer specification triggers in
 - The [Gate C site-validation pack](../../tests/site-validation-pack/README.md) is the execution record for the site gatekeeper and walk.
 - Gate C and Issue #3 remain open. No site approval or deployment readiness is claimed.
 
+### Synthetic teaching scenario — not stakeholder/site evidence
+
+The [synthetic completed Gate C example](../../tests/site-validation-pack/synthetic-completed-example.md) is a fictional role-play created to show students how a site response can reject one candidate, conditionally accept another and change the engineering plan. It is not labelled `VAL-004`, does not satisfy T-079–T-081 and must not be cited as Innovation Wing/HKU permission or an observed site condition.
+
 ---
 
 ## Reusable blank session template
