@@ -17,6 +17,18 @@ Requirements turn needs into statements that can be tested. The targets below ar
 | REP-001 | A second team shall assemble and flash the validated build using only released repository files and BOM. | Foundation 4.3 | Independent clean-build/rebuild trial | Not started |
 | DOC-001 | README, exact BOM, wiring/pin map, Modbus IDs/registers, CAD, firmware build steps, calibration notes, test evidence, licences and known limitations shall be present and consistent. | Foundation 17-19 | Release checklist review | In progress |
 
+## Stakeholder-derived provisional field-readiness requirements
+
+The following requirements come from Gate A interview batch 1. They are review inputs, not evidence that the current system passes. Numeric data-quality, power and comparison thresholds remain open until the rest of Gate A, TA workflow validation and site approval are complete.
+
+| ID | Provisional requirement / acceptance target | Source | Verification | Status |
+|---|---|---|---|---|
+| SAF-001 | A supervised field run shall not begin or continue with battery distress/short-circuit risk, wet exposed live connections, water reaching energised electronics, unstable mounting/fall risk, uncontrolled public access, abnormal heat/smell/smoke, or weather outside the approved test envelope. | VAL-001 Gate A Q3 | Pre-deployment and in-run stop-control checklist; T-072 | Provisional; site/safety approver confirmation required |
+| DEC-001 | The 72-hour report shall support an explicit `go`, `conditional go` or `no-go` recommendation. A conditional go shall name required subsystem changes and repeat evidence. | VAL-001 Gate A Q2 | Independent instructor review of the field report; T-071 | Provisional; decision display/tabletop test pending |
+| DEC-002 | Teaching-demo readiness and supervised short field-test readiness shall be reported separately from long-term unattended-deployment readiness. | VAL-001 Gate A Q2 | Claim/scope review in T-071 | Provisional; Gate A questions 7 and 10 pending |
+| DAT-002 | Missing or implausible data shall be visible and diagnosable. Occasional missing records need not stop a run, but a sustained outage or untrustworthy output that prevents a useful decision shall trigger retrieval and diagnosis. | VAL-001 Gate A Q1 and Q3 | Gap/anomaly injection and decision review; T-060, T-071 | Qualitative; duration/completeness threshold pending |
+| OPS-001 | Before deployment, the team shall document how faults are recognised, who responds, when the run stops and how the equipment is safely removed. | Team inference from VAL-001 Gate A Q1 and Q3 | TA walkthrough and site escalation review | Provisional; Gate B/C pending |
+
 ## Explicit first-release exclusions
 
 - Certified meteorological-grade accuracy
