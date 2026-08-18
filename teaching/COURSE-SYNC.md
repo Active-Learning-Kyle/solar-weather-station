@@ -12,25 +12,27 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Item | Reviewed value |
 |---|---|
 | Course repository | `heqihao522828-crypto/ENGG2202-Green-Technology` |
-| Course baseline after Gate C teaching sync | `7c915d15c324381961695c4e5f6c7e37eccd6b5d` — course PR #15 |
-| Exemplar Gate C teaching baseline | `b5108fb76725ea4666476b7e798237ed496e3654` — project PR #18 |
+| Course baseline after Gate D/E sync | `685ae2d21304e94937eefd61199eb3c7ac52004b` — course PR #17 |
+| Exemplar Gate D/E content baseline | `ae82caa0ee327cdcc237a9bb61c8f9340a1db624` — project PR #20 |
 | Review date | 18 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
-| Current paired increment | Project PR #18 adds the Gate C site workflow and synthetic completed example; course PR #15 teaches how the fictional site conditions reshape the design without representing permission |
-| Current result | Both repositories label the Candidate A/B decision as synthetic/not permission and retain real site authority, T-079–T-081, TA dry run, reference, thresholds and prototype performance as open evidence |
-| Next review trigger | Real site walk if deployment proceeds, supervised TA dry run, reference/quotation evidence, Gate D tabletop, Gate E matrix re-score, prototype/test milestone, course-stage/template change or stale link |
+| Current paired increment | Project PR #20 adds the Gate D synthetic case/instructor `revise` decision and Gate E provisional hybrid strategy; course PR #17 teaches decision alignment and objective-dependent strategy |
+| Current result | Both repositories separate fictional data and instructor preference from the independent TA, scoring, sensitivity, loan/quotation/reference, real site and prototype evidence still required |
+| Next review trigger | Independent TA Gate D response, Gate E independent scores/sensitivity and loan/quotation/reference evidence, real site walk if deploying, prototype/test milestone, course-stage/template change or stale link |
 
 ## Current teaching use
 
 The course repository's first formal GitHub active-learning exercise points students to [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3). Students critique the Issue and observe the Issue–branch–commit–Pull Request evidence chain; they do not modify this repository during that exercise.
 
-The live teaching example must therefore preserve five distinctions:
+The live teaching example must therefore preserve seven distinctions:
 
 1. the instructor's supervised field-readiness decision is supported by VAL-001;
 2. a real TA's workflow requirements are supported by VAL-002, but operational executability is not proven until T-077/T-078 are completed;
 3. VAL-003 and the official enquiry route prepare Gate C, while the completed Candidate A/B response is explicitly synthetic teaching input;
-4. the Tam Wing Fan Innovation Wing One candidate point, formal authority, reference access, thresholds and prototype performance remain open; and
-5. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
+4. VAL-004 records the instructor's Gate D `revise` decision, while independent TA alignment T-082 remains open;
+5. VAL-005 records a provisional hybrid strategy, while final Gate E scoring/sensitivity and reality checks T-083 remain open;
+6. the Tam Wing Fan Innovation Wing One candidate point, formal authority, reference access, thresholds and prototype performance remain open; and
+7. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
 
 Course activity: [GitHub active-learning starter](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology/blob/main/activities/github-active-learning-starter.md).
 
