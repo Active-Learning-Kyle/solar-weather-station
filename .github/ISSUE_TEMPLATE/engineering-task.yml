@@ -1,0 +1,35 @@
+name: Engineering task
+description: Plan a design, research, build, or validation activity
+title: "[Task]: "
+labels: []
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and need
+      description: What problem or requirement does this task address?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Definition of done
+      description: State the measurable output or evidence required to close this Issue.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach and alternatives
+      description: What will be tried, and which alternatives should be considered?
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks, safety, cost, and licensing
+      description: Identify consequences that must be reviewed.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence links
+      description: Add requirements, sources, test data, photos, files, or Pull Requests.
+

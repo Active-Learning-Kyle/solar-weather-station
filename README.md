@@ -1,0 +1,125 @@
+# Solar Weather Station
+
+> An open-source, solar-powered ESP32-S3 weather station for local microclimate monitoring and engineering education.
+
+[![Project status](https://img.shields.io/badge/status-v0.1%20foundation-orange)](#current-status)
+[![Hardware](https://img.shields.io/badge/hardware-ESP32--S3-blue)](hardware/README.md)
+[![Course](https://img.shields.io/badge/HKU-ENGG2202-7b2d8e)](teaching/ENGG2202-exemplar.md)
+[![License](https://img.shields.io/badge/license-under%20review-lightgrey)](LICENSES/README.md)
+
+**Learn from existing engineering → Rebuild → Adapt → Validate → Open-source → Teach forward.**
+
+This repository is both a real engineering project and an instructor exemplar for HKU ENGG2202. It records not only the proposed solution, but also the problem definition, alternatives considered, design decisions, budget, prototypes, failures, tests, and reflections.
+
+> [中文 GitHub 导览：每个页面和文件为什么存在](docs/GITHUB-GUIDE-ZH.md)
+
+## Why this project?
+
+Regional weather data does not always represent the microclimate where engineering decisions are made. This project explores a reproducible, low-cost station that can collect local environmental data while operating from solar and battery power.
+
+## Intended capabilities
+
+- Wind speed and wind direction
+- Temperature, humidity, and pressure
+- UV or related environmental sensing (sensor selection pending)
+- GNSS time and location
+- Solar and battery operation
+- Local data logging and a web dashboard
+- RS-485 / Modbus connections for robust outdoor sensors
+
+These are design targets, not claims that every subsystem has been validated.
+
+## System architecture
+
+```mermaid
+flowchart LR
+    S[Solar panel] --> P[Power manager]
+    P --> B[Battery]
+    B --> M[ESP32-S3 controller]
+    W[Wind sensors] --> R[RS-485 / Modbus] --> M
+    E[Environmental sensors] --> M
+    G[GNSS] --> M
+    M --> L[Local storage]
+    M --> D[Dashboard / data export]
+```
+
+The diagram is deliberately high-level. Pin assignments, electrical interfaces, protocols, and verified limits belong in the subsystem documentation rather than being implied by this overview.
+
+## Current status
+
+| Area | Status | Evidence needed next |
+|---|---|---|
+| Problem and project foundation | Documented in the original v0.1 PDF | Import the source PDF into `docs/source-documents/` |
+| Solution landscape | In progress | Compare commercial and open-source alternatives |
+| Reference-project lineage | Identified in the source foundation | Add exact links, versions, reused files, and licences |
+| ESP32-S3 architecture | Proposed | Add wiring, firmware, and bench-test evidence |
+| Environmental sensor | Pending decision | Selection matrix and calibration plan |
+| Power subsystem | Proposed | Measured load profile and solar energy budget |
+| Outdoor enclosure | In development | CAD, assembly guide, and ingress-risk review |
+| 72-hour outdoor validation | Not started | Time-stamped dataset and test report |
+
+## Project journey
+
+The engineering narrative is split into reviewable steps:
+
+1. [Problem identification](docs/project-journey/01-problem.md)
+2. [Existing-solution landscape](docs/project-journey/02-solution-landscape.md)
+3. [Reference projects](docs/project-journey/03-reference-projects.md)
+4. [Design requirements](docs/project-journey/04-design-requirements.md)
+5. [Design decisions](docs/project-journey/05-design-decisions.md)
+6. [Budget and procurement](docs/project-journey/06-budget.md)
+7. [Prototyping](docs/project-journey/07-prototyping.md)
+8. [Testing and validation](docs/project-journey/08-testing.md)
+9. [Reflection and teaching transfer](docs/project-journey/09-reflection.md)
+
+## Repository map
+
+| Folder/file | What it is for |
+|---|---|
+| `README.md` | The project’s front door: purpose, status, architecture, and navigation |
+| `docs/project-journey/` | The traceable engineering process behind the final design |
+| `hardware/` | Schematics, wiring, PCB, interfaces, and electrical evidence |
+| `mechanical/` | CAD, drawings, enclosure, mounting, and fabrication guidance |
+| `firmware/esp32s3/` | Embedded source code, configuration, and flashing instructions |
+| `dashboard/` | Data model, visualisation, and deployment instructions |
+| `bom/` | Bill of materials, suppliers, cost, and procurement status |
+| `tests/` | Test plans, raw evidence, acceptance criteria, and results |
+| `teaching/` | How this project maps to ENGG2202 learning and assessment |
+| `.github/` | Contribution templates used by GitHub Issues and Pull Requests |
+
+## Quick start
+
+The build is not reproducible yet. The eventual pathway will be:
+
+1. Review the requirements and safety constraints.
+2. Purchase the locked BOM revision.
+3. Fabricate the enclosure and mounting parts.
+4. Assemble and inspect the electrical system.
+5. Configure and flash the firmware.
+6. Run subsystem diagnostics.
+7. Complete the validation matrix before field deployment.
+
+Until those instructions and tests are complete, treat this repository as a **work-in-progress engineering record**, not a finished consumer product.
+
+## Budget framework
+
+| Build level | Early planning range (USD) | Purpose |
+|---|---:|---|
+| Bench prototype | 100–180 | Sensor and communications learning |
+| Outdoor prototype | 180–300 | Integrated solar-powered field prototype |
+| Ruggedised build | 300–450+ | Improved mounting, protection, and reliability |
+
+These ranges must be replaced or supported by quotations in [`bom/bom.csv`](bom/bom.csv).
+
+## Contributing
+
+Ideas, test results, sensor comparisons, documentation improvements, and design reviews are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and open an Issue before making a major design change.
+
+## Licensing and attribution
+
+The final licence has not yet been selected because third-party firmware and hardware-design lineage must be audited first. See [THIRD_PARTY.md](THIRD_PARTY.md) and [LICENSES/README.md](LICENSES/README.md). Do not copy external code or design files into this repository until their licence and attribution requirements are recorded.
+
+## Safety
+
+Outdoor electrical systems, rechargeable batteries, fabrication tools, and elevated mounting introduce real hazards. Risk assessment, supervision, weather protection, strain relief, fusing, and appropriate test procedures are required. This repository does not replace professional engineering judgement.
+

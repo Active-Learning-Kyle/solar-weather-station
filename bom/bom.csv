@@ -1,0 +1,9 @@
+item_id,subsystem,item,manufacturer_part_number,specification,quantity,unit_cost,currency,supplier,url,lead_time,status,alternative,notes
+CTRL-001,controller,ESP32-S3 development board,TBD,TBD,1,,,TBD,,TBD,proposed,,Lock exact board revision before firmware pin mapping
+PWR-001,power,solar panel,TBD,TBD,1,,,TBD,,TBD,proposed,,Size from measured energy budget
+PWR-002,power,battery,TBD,TBD,1,,,TBD,,TBD,proposed,,Chemistry protection and capacity require safety review
+PWR-003,power,solar power manager,TBD,TBD,1,,,TBD,,TBD,proposed,,Verify efficiency and protection
+SNS-001,sensing,environmental sensor,TBD,temperature humidity pressure and/or UV,1,,,TBD,,TBD,decision pending,,Use a documented selection matrix
+COM-001,communications,RS-485 interface,TBD,TBD,1,,,TBD,,TBD,proposed,,Verify voltage isolation termination and connector strategy
+MECH-001,mechanical,outdoor enclosure,TBD,TBD,1,,,TBD,,TBD,in development,,Include glands fasteners vents and mounting
+
