@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This repository demonstrates an engineering learning journey, not a model answer for students to copy. It is intended to help the instructor and teaching assistants run the complete workflow before scaling the course.
+This repository demonstrates one Green Technology engineering journey, not a model answer for students to copy. It is intended to help the instructor and teaching assistants run the complete workflow before scaling the course.
 
-The course-wide framework now lives in the separate [ENGG2202 Project Studio](https://github.com/heqihao522828-crypto/ENGG2202-project-studio). This repository remains one live exemplar linked stage-by-stage from that hub.
+The course-wide framework now lives in [ENGG2202 - Green Technology](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology). This repository remains one live exemplar linked stage-by-stage from that course hub.
 
 ## Formal course context
 

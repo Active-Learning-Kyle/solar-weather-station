@@ -9,9 +9,9 @@
 
 **Learn from existing engineering → Rebuild → Adapt → Validate → Open-source → Teach forward.**
 
-This repository is a real engineering project used as one live exemplar for HKU ENGG2202. The separate [ENGG2202 Project Studio](https://github.com/heqihao522828-crypto/ENGG2202-project-studio) contains the course-wide journey, active-learning checkpoints and reusable templates. This repository shows what that framework looks like when applied to one incomplete project.
+This repository is a real engineering project used as one live exemplar for [ENGG2202 - Green Technology](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology). The separate course repository explains the Green Technology journey, active-learning process and reusable student framework. This repository shows what that framework looks like when applied to one incomplete project.
 
-It records not only the proposed solution, but also the problem definition, alternatives considered, design decisions, budget, prototypes, failures, tests and reflections. Students may study the method and evidence; they are not expected to copy this project topic or solution.
+It records not only the proposed solution, but also the green problem/baseline, alternatives considered, open-reference learning, design decisions, budget, materials, prototypes, failures, tests and reflections. Students may study and replace the method with their own Green Technology problem; they are not expected to copy this topic or solution.
 
 > [中文 GitHub 导览：每个页面和文件为什么存在](docs/GITHUB-GUIDE-ZH.md)
 

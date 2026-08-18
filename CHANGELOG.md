@@ -21,7 +21,7 @@ All notable project changes will be recorded here.
 - Clarified the evidence level of reported prototype progress and unresolved design decisions.
 - Expanded reference-project licensing and reuse boundaries.
 - Aligned the instructor exemplar with the formal course learning outcomes, assessment weights and learning hours.
-- Clarified that the Solar Weather Station is one live exemplar linked from the separate ENGG2202 Project Studio course hub.
+- Clarified that the Solar Weather Station is one live exemplar linked from the separate ENGG2202 Green Technology course repository.
 
 ## [0.1.0] - 2026-08-18
 
