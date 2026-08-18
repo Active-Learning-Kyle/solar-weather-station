@@ -79,6 +79,49 @@ A repeated difference beyond the relevant manufacturer specification triggers in
 
 ---
 
+## VAL-002 — Gate B TA-perspective workflow walkthrough
+
+### Session metadata
+
+- **Date / mode:** 18 August 2026 / asynchronous written response
+- **Participant evidence status:** TA-perspective response supplied in the instructor conversation; whether the respondent is an independent TA remains to be confirmed
+- **Facilitator / note taker:** OpenAI Codex, with participant-role confirmation required
+- **Consent boundary:** written notes and paraphrase only; no audio, video, photos or unnecessary personal data
+- **Related Issue:** [#3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3)
+- **Gate status:** workflow design evidence recorded; Gate B remains open until an independent TA reviews or performs a dry run
+
+### Workflow evidence
+
+| Question / task | TA-perspective evidence | Implication | Remaining validation |
+|---|---|---|---|
+| Can the checklist be executed? | Yes if it is short, uses observable `yes / no / not applicable` checks and states direct stop actions. A single form requiring unaided judgement across sensing, batteries, waterproofing, networks and structures would invite unverified “all yes” completion. | Separate the full evidence record from a concise three-stage operator checklist and anomaly/action guide. | Independent TA completes a dry run without author coaching. |
+| How much time is realistic? | Estimated bench check 15–20 min; site installation 20–30 min; initial data confirmation 10–15 min; daily site check 10–15 min; daily dashboard review 5–10 min; removal 15–20 min; post-retrieval check 20–30 min. The first installation should reserve 45–60 min. | Plan workload explicitly and measure actual duration during the first pilot before scaling to many teams. | Record actual start/end times and TA interventions. |
+| Can a TA interpret data and anomalies? | A TA can identify missing output, obviously implausible readings, gaps, falling battery voltage, reboots, long network outage, missing local logs, ingress and loose mounting. Drift limits, RS-485 replacement thresholds, solar-charge profiles and root-cause attribution require an expected-range/normal-behaviour guide. | The pack needs normal / investigate / stop categories and project-specific thresholds sourced from locked hardware and the approved test. | Lock sensor models, battery threshold, weather envelope and recoverable-fault definitions. |
+| Are student/TA responsibilities realistic? | Students install, follow checks, record, inspect, report, analyse and propose changes. TA verifies/supervises, identifies obvious hazards and anomaly category, checks escalation and records major issues. Instructor owns deployment approval, safety criteria and significant continuation decisions. | TA verification must not replace student engineering ownership. | Independent TA confirms workload and authority in practice. |
+| Is the escalation path clear? | Student records and informs TA; TA classifies technical versus safety issue. Ordinary technical issues are investigated and escalated if test quality changes. Immediate safety risks are stopped/isolated first, then reported. Site-related problems route through the instructor/designated contact to venue staff. | State explicitly: any student or TA may stop an immediate safety hazard without waiting for instructor permission. | Confirm out-of-hours contacts, site access and restart authority. |
+| What is missing operationally? | One-page checklist; anomaly guide; stop criteria; expected sensor/normal-behaviour ranges; battery and weather limits; shutdown/restart steps; instructor/site contacts; dashboard/log/local-logger permissions; site/out-of-hours access; multimeter, hand tools, spares, mounting/sealing materials and reference instrument. | Deployment readiness includes people, access and tools—not only hardware function. | Complete the contacts/access/tools record and run a readiness review. |
+
+### Estimated workload to test in the first pilot
+
+| Activity | Planning estimate | Actual duration | TA intervention / lesson |
+|---|---:|---:|---|
+| Pre-deployment bench check | 15–20 min | | |
+| Site installation | 20–30 min | | |
+| Initial data confirmation | 10–15 min | | |
+| Daily site check | 10–15 min | | |
+| Daily dashboard/log review | 5–10 min | | |
+| Removal | 15–20 min | | |
+| Post-retrieval inspection | 20–30 min | | |
+
+### Gate B provisional outcome
+
+- The proposed role split is operationally plausible, but independent TA confirmation is still required.
+- The existing full field-readiness record is useful as an evidence package, not as the only on-site checklist.
+- Quick operator, anomaly/escalation and contacts/access/tools sheets are required before a supervised deployment dry run.
+- Gate B and Issue #3 remain open.
+
+---
+
 ## Reusable blank session template
 
 Copy this section for each session. Record role-based evidence without unnecessary personal data.

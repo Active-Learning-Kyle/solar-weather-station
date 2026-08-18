@@ -8,6 +8,8 @@
 
 Use one copy for one configuration and deployment attempt. A checked box records an observation; it does not by itself prove long-term reliability or approve the site.
 
+Use the [field operations pack](field-operations-pack/README.md) for concise on-site checks and escalation. Preserve this longer record for reviewed evidence and the final decision.
+
 ## Test identity and responsibility
 
 - **Configuration / firmware / hardware revisions:**
