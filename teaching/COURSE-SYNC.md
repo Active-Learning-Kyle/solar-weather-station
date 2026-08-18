@@ -12,13 +12,13 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Item | Reviewed value |
 |---|---|
 | Course repository | `heqihao522828-crypto/ENGG2202-Green-Technology` |
-| Course baseline before current revision | `85292fca77f6e7c69e74044e17125123f5dff50a` |
-| Exemplar baseline before current revision | `0e40e3efd1ba09cb97c5bd09d251856590a0b96f` |
+| Course baseline after Gate A sync | `dcfb0e45d93bbe16b531d8cc3964ffc2db1097ee` — course PR #13 |
+| Exemplar Gate A content baseline | `6b4128f066f3a500ce651c9b6046ed5824f4bd60` — project PR #14 |
 | Review date | 18 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
-| Current paired increment | Course Activity 1 uses Issue #3 as a read-only live example; this project adds the stakeholder-validation plan and record that students inspect |
-| Current result | Gate A confirms the instructor decision owner, first-run decision, buy/build rule and claim boundary; site/authority/TA/reference/test evidence remain visibly open |
-| Next review trigger | course exemplar status update for Gate A, TA interview/site walk, project prototype/test milestone, course-stage/template change, release, or stale/broken link |
+| Current paired increment | Project PR #14 completes Gate A; course PR #13 updates the student-facing exemplar without copying engineering evidence |
+| Current result | Both repositories now show the instructor decision owner, first-run/buy-build/claim boundaries and the still-open site/authority/TA/reference/test evidence consistently |
+| Next review trigger | TA interview/site walk, reference/quotation evidence, tabletop/matrix re-score, project prototype/test milestone, course-stage/template change, release or stale/broken link |
 
 ## Current teaching use
 
