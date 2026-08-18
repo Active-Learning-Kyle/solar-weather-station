@@ -71,6 +71,8 @@ Scores use 1 (poor) to 5 (strong). Weights reflect the proposed teaching/test us
 
 Gate A supports this strategy when engineering learning is the objective. If dependable local weather data alone is the objective, the stakeholder instead prefers a mature bought or borrowed system. This remains a staged strategy, not permission to purchase a particular product. First seek an existing HKU instrument or short loan; procure only after site, comparison variables, data access, maintenance ownership and quotation are confirmed.
 
+The instructor's [Gate E provisional re-score](gate-e-provisional-rescore.md) strengthens this as a role-separated hybrid strategy rather than a sunk-cost `buy or build` choice. It remains provisional until Gate D alignment, independent matrix scoring/sensitivity and current reference/quotation evidence are complete.
+
 ## Work still needed to close Issue #3
 
 The sequence and evidence templates are now defined in the [stakeholder/site/decision validation plan](01a-stakeholder-validation-plan.md). Re-scoring before those gates would make the existing preference look more certain than the evidence supports.

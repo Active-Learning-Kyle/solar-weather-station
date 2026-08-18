@@ -161,6 +161,59 @@ The [synthetic completed Gate C example](../../tests/site-validation-pack/synthe
 
 ---
 
+## VAL-004 — Gate D instructor tabletop decision
+
+### Session metadata
+
+- **Date / mode:** 18 August 2026 / asynchronous written response
+- **Participant role:** instructor / deployment-decision owner
+- **Input:** fictional [`SYNTH-D-01`](../../tests/tabletop-decision-pack/synthetic-72h-case.md); no prototype data
+- **Recorded response:** [`revise`](../../tests/tabletop-decision-pack/instructor-response.md)
+- **Gate status:** instructor response complete; independent TA response/alignment remains open
+
+### Decision evidence
+
+The instructor judged that the fictional architecture remains plausible because most operation is normal, local logging survives a network gap, the system automatically recovers after one reboot and no immediate safety stop is stated. The same configuration may not return outdoors unchanged because three decision-relevant findings remain unresolved:
+
+- insufficiently understood power margin and reboot cause;
+- persistent priority-sensor/reference disagreement beyond the fictional accuracy band; and
+- light internal condensation requiring enclosure investigation.
+
+The required path is targeted modification, bench requalification and then a new field-readiness decision. Gate D agreement is required on safety class, field-continuation permission and decision authority—not identical technical repairs.
+
+### Remaining evidence
+
+- a real TA completes the response without reading the instructor decision;
+- the alignment table records any material disagreement; and
+- threshold, dashboard, checklist or escalation changes are made where disagreement exposes ambiguity.
+
+---
+
+## VAL-005 — Gate E instructor provisional strategy
+
+### Session metadata
+
+- **Date / mode:** 18 August 2026 / asynchronous written response
+- **Participant role:** instructor / decision stakeholder
+- **Input:** qualitative comparison of buy, borrow, adapt and independent build routes
+- **Detailed record:** [provisional Gate E re-score](gate-e-provisional-rescore.md)
+- **Gate status:** instructor preference recorded; final workshop remains open
+
+### Provisional outcome
+
+The instructor rejects a sunk-cost `buy versus build` binary and prefers a hybrid strategy:
+
+- use a reliable commercial or borrowed instrument as the comparison reference and primary source when dependable weather data is the objective; and
+- continue the student-built modular station as an educational/experimental prototype for engineering learning, subject to safety, field-test and validation gates.
+
+The student research question therefore shifts from “can we build a weather station?” to “under what evidenced conditions is an open, modular and lower-cost prototype sufficiently reliable?”
+
+### Claim boundary and remaining evidence
+
+Solar power alone does not establish Green Technology or ESG value. Energy, solar contribution, battery, materials, repairability, modularity, lifetime, reuse and comparative problem/impact evidence remain required. Final Gate E also requires Gate D alignment, independent scoring, sensitivity, current loan/quotation evidence and a selected comparison method.
+
+---
+
 ## Reusable blank session template
 
 Copy this section for each session. Record role-based evidence without unnecessary personal data.

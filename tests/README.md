@@ -8,6 +8,8 @@ For on-site operation, start with the [field operations pack](field-operations-p
 
 Before choosing or approving a location, complete the [Gate C site-validation pack](site-validation-pack/README.md) with the responsible site staff. Instructor requirements or a useful-looking location are not site permission.
 
+Use the [Gate D tabletop-decision pack](tabletop-decision-pack/README.md) to compare independent instructor/TA decisions on a deliberately ambiguous synthetic 72-hour case. It tests thresholds, displays and authority—not prototype performance.
+
 Every test record should include:
 
 - Test ID, date, author, and objective
