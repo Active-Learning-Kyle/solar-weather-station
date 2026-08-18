@@ -6,6 +6,8 @@ All notable project changes will be recorded here.
 
 ### Added
 
+- Complete `v0.2-teaching-preview` baseline: environmental sensor ADR/matrix, exact preview architecture, expanded BOM, power tree/model, firmware scaffold, enclosure specification, data schema and release checklist.
+- Deterministic synthetic 72-hour generator, 432-record dataset, calculated summary, daily/retrieval records, visual status card and decision report.
 - Issue #3 stakeholder/site/decision validation plan and reusable evidence record.
 - Read-only use of Issue #3 as the real engineering-Issue demonstration in ENGG2202 GitHub Activity 1.
 
@@ -22,6 +24,7 @@ All notable project changes will be recorded here.
 
 ### Changed
 
+- Selected SHT45 + BMP390 + LTR390 for the preview and connected Issues #4/#5/#1/#6 into one traceable configuration while preserving all real-evidence blockers.
 - Completed the Gate A instructor interview and translated its field-readiness decision, stop controls, evidence/reference priorities, responsibility model, buy/build rule and sustainability-claim boundary into requirements, tests and a three-stage field checklist without claiming the current system passes.
 - Completed the Gate B TA workflow interview and added a concise field-operations pack with explicit stop/escalation actions, timing, expected-behaviour fields, contacts/access/tools readiness and supervised dry-run tests.
 - Added Gate C instructor pre-walk requirements and a site-validation pack covering authority, reversible mounting, access, public/security risk, environmental bias, network/local logging, weather response and reference-instrument enquiry without claiming site approval.
