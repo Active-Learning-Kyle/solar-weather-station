@@ -1,0 +1,11 @@
+criterion,weight_percent,A_SHT45_BMP390_LTR390,B_BME280_LTR390,C_SHT31_BMP280_LTR390,D_SHT45_BMP390_GUVA,notes
+Temperature and humidity accuracy,20,5,3,4,5,SHT45 is the preferred primary temperature/RH device
+Pressure capability and accuracy,10,5,3,4,5,BMP390 is separated so pressure is not tied to the humidity sensor
+Outdoor integration and contamination control,15,4,3,3,3,All options require a radiation shield plus controlled air or optical path
+Power consumption,10,5,5,5,4,Controller and field sensors still dominate the complete-system budget
+Digital interface and software support,10,5,5,5,3,GUVA adds analogue ADC and reference considerations
+Calibration and reference strategy,15,5,3,4,4,LTR390 remains a UVA-count channel until comparison supports a derived claim
+Availability and replaceability,10,4,5,5,4,Verify exact breakout availability before purchase
+Learning visibility and modularity,10,5,3,4,5,Separate sensors make limitations and replacement decisions visible
+WEIGHTED_RESULT_OUT_OF_50,100,47.5,36.0,41.5,41.5,Concept A leads for the v0.2 teaching objective; scores are decision inputs rather than measurements
+
