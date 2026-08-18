@@ -6,6 +6,8 @@ This repository demonstrates one Green Technology engineering journey, not a mod
 
 The course-wide framework now lives in [ENGG2202 - Green Technology](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology). This repository remains one live exemplar linked stage-by-stage from that course hub.
 
+The two repositories have different sources of truth and a shared review contract. See the [course–exemplar synchronisation record](COURSE-SYNC.md) before changing project status, teaching-stage links or course-facing claims.
+
 ## Formal course context
 
 The repository alignment below is based on the retained 10-page HKU course template in `teaching/source-documents/`:
