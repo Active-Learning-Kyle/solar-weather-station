@@ -1,6 +1,6 @@
 # Field Operations Pack
 
-**Status:** Gate B workflow draft; independent TA dry run, site approval and project-specific thresholds remain required.
+**Status:** Gate B TA interview complete; supervised operational dry run, site approval and project-specific thresholds remain required.
 
 Use these short operator sheets on site. Use the parent [72-hour field-readiness record](../field-readiness-checklist.md) for the full evidence package and final decision.
 

@@ -17,8 +17,8 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Review date | 18 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
 | Current paired increment | Project PR #14 completes Gate A; course PR #13 updates the student-facing exemplar without copying engineering evidence |
-| Current result | A Gate B TA-perspective workflow and operator pack are drafted in the project repository only; they remain unpaired until participant independence is confirmed, reviewed and merged |
-| Next review trigger | Independent TA confirmation/dry run and Gate B project merge, followed by the matching course-exemplar update; also site walk, reference/quotation evidence, tabletop/matrix re-score, prototype/test milestone or stale link |
+| Current result | The Gate B participant is confirmed as a real TA, completing the workflow interview; the project operator pack still requires a supervised dry run before deployment and remains unpaired until this project increment is merged |
+| Next review trigger | Gate B project merge followed by the matching course-exemplar update; then supervised TA dry run, site walk, reference/quotation evidence, tabletop/matrix re-score, prototype/test milestone or stale link |
 
 ## Current teaching use
 

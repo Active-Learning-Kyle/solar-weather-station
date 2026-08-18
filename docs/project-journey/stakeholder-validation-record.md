@@ -79,20 +79,20 @@ A repeated difference beyond the relevant manufacturer specification triggers in
 
 ---
 
-## VAL-002 — Gate B TA-perspective workflow walkthrough
+## VAL-002 — Gate B TA workflow interview
 
 ### Session metadata
 
 - **Date / mode:** 18 August 2026 / asynchronous written response
-- **Participant evidence status:** TA-perspective response supplied in the instructor conversation; whether the respondent is an independent TA remains to be confirmed
-- **Facilitator / note taker:** OpenAI Codex, with participant-role confirmation required
+- **Participant evidence status:** teaching-assistant participant; role confirmed by the instructor after the written response; name and unnecessary personal data not recorded
+- **Facilitator / note taker:** OpenAI Codex structured the participant's written answers in the instructor conversation
 - **Consent boundary:** written notes and paraphrase only; no audio, video, photos or unnecessary personal data
 - **Related Issue:** [#3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3)
-- **Gate status:** workflow design evidence recorded; Gate B remains open until an independent TA reviews or performs a dry run
+- **Gate status:** TA workflow interview completed; the separate operational dry run remains required before deployment
 
 ### Workflow evidence
 
-| Question / task | TA-perspective evidence | Implication | Remaining validation |
+| Question / task | TA evidence | Implication | Remaining validation |
 |---|---|---|---|
 | Can the checklist be executed? | Yes if it is short, uses observable `yes / no / not applicable` checks and states direct stop actions. A single form requiring unaided judgement across sensing, batteries, waterproofing, networks and structures would invite unverified “all yes” completion. | Separate the full evidence record from a concise three-stage operator checklist and anomaly/action guide. | Independent TA completes a dry run without author coaching. |
 | How much time is realistic? | Estimated bench check 15–20 min; site installation 20–30 min; initial data confirmation 10–15 min; daily site check 10–15 min; daily dashboard review 5–10 min; removal 15–20 min; post-retrieval check 20–30 min. The first installation should reserve 45–60 min. | Plan workload explicitly and measure actual duration during the first pilot before scaling to many teams. | Record actual start/end times and TA interventions. |
@@ -113,12 +113,12 @@ A repeated difference beyond the relevant manufacturer specification triggers in
 | Removal | 15–20 min | | |
 | Post-retrieval inspection | 20–30 min | | |
 
-### Gate B provisional outcome
+### Gate B interview outcome
 
-- The proposed role split is operationally plausible, but independent TA confirmation is still required.
+- A real TA confirmed that the proposed role split is operationally plausible when the on-site material is short, observable and explicit about stop authority.
 - The existing full field-readiness record is useful as an evidence package, not as the only on-site checklist.
 - Quick operator, anomaly/escalation and contacts/access/tools sheets are required before a supervised deployment dry run.
-- Gate B and Issue #3 remain open.
+- The Gate B interview is complete. T-077, T-078, Gates C–E and Issue #3 remain open; no field executability or deployment readiness is claimed yet.
 
 ---
 
