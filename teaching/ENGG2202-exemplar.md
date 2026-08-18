@@ -65,3 +65,7 @@ The repository alignment below is based on the retained 10-page HKU course templ
 GitHub should not be introduced as a final upload destination. It should be used weekly as the shared engineering workspace. The assessment should reward traceable decisions, evidence, responsible collaboration, and honest iteration - not commit count or a polished README alone.
 
 This exemplar interprets the approved framework; it does not change the formal assessment weights or rubrics.
+
+## Live Issue demonstration for Activity 1
+
+[Solution-landscape Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3) is used read-only during the first formal GitHub active-learning exercise. It shows students that a useful Issue contains context, a definition of done, evidence increments and an honest external blocker. The instructor should not present the provisional stakeholder/site/decision as validated; the linked [validation plan](../docs/project-journey/01a-stakeholder-validation-plan.md) demonstrates how the missing evidence will be collected.
