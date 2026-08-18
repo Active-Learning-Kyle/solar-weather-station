@@ -19,7 +19,7 @@ Requirements turn needs into statements that can be tested. The targets below ar
 
 ## Stakeholder-derived provisional field-readiness requirements
 
-The following requirements come from Gate A interview batch 1. They are review inputs, not evidence that the current system passes. Numeric data-quality, power and comparison thresholds remain open until the rest of Gate A, TA workflow validation and site approval are complete.
+The following requirements come from Gate A interview batches 1–2. They are review inputs, not evidence that the current system passes. Numeric data-quality, power and comparison thresholds remain open until the rest of Gate A, TA workflow validation and site approval are complete.
 
 | ID | Provisional requirement / acceptance target | Source | Verification | Status |
 |---|---|---|---|---|
@@ -27,7 +27,9 @@ The following requirements come from Gate A interview batch 1. They are review i
 | DEC-001 | The 72-hour report shall support an explicit `go`, `conditional go` or `no-go` recommendation. A conditional go shall name required subsystem changes and repeat evidence. | VAL-001 Gate A Q2 | Independent instructor review of the field report; T-071 | Provisional; decision display/tabletop test pending |
 | DEC-002 | Teaching-demo readiness and supervised short field-test readiness shall be reported separately from long-term unattended-deployment readiness. | VAL-001 Gate A Q2 | Claim/scope review in T-071 | Provisional; Gate A questions 7 and 10 pending |
 | DAT-002 | Missing or implausible data shall be visible and diagnosable. Occasional missing records need not stop a run, but a sustained outage or untrustworthy output that prevents a useful decision shall trigger retrieval and diagnosis. | VAL-001 Gate A Q1 and Q3 | Gap/anomaly injection and decision review; T-060, T-071 | Qualitative; duration/completeness threshold pending |
-| OPS-001 | Before deployment, the team shall document how faults are recognised, who responds, when the run stops and how the equipment is safely removed. | Team inference from VAL-001 Gate A Q1 and Q3 | TA walkthrough and site escalation review | Provisional; Gate B/C pending |
+| OPS-001 | Before deployment, the team shall name the site/location approver, instructor decision owner, student operator(s), TA supervisor, daily checker, fault contact and safe-removal owner. Any observer may stop an immediate safety hazard; non-immediate continuation decisions escalate to the instructor. | VAL-001 Gate A Q6 | Role-confirmed checklist and TA/site walkthrough; T-072 | Participant role model recorded; institutional/site authority and Gate B/C pending |
+| FLD-002 | During the first 72-hour run, the system shall automatically record primary sensor readings, timestamps, battery voltage, missing intervals, restarts, local-logging state and significant communication failures. A human observation shall check plausibility, power trend, ingress/condensation, mounting/cables and weather risk at least daily. | VAL-001 Gate A Q4–5 | Log-schema review and daily observation record; T-073 | Provisional; exact completeness/fault thresholds pending |
+| FLD-003 | The evidence package shall contain a pre-deployment check, during-run observations, post-retrieval physical/data inspection and a final `continue / continue with modification / return to bench` decision with named next actions. | VAL-001 Gate A Q5 | Three-stage field-readiness record; T-072, T-073 and T-074 | Provisional; checklist drafted for TA/site review |
 
 ## Explicit first-release exclusions
 

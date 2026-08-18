@@ -22,7 +22,7 @@ All notable project changes will be recorded here.
 
 ### Changed
 
-- Recorded Gate A instructor-interview batch 1 and translated its field-readiness decision, stop controls and evidence needs into provisional requirements/tests without claiming the current system passes.
+- Recorded Gate A instructor-interview questions 1–6 and translated its field-readiness decision, stop controls, evidence priorities and responsibility model into provisional requirements, tests and a three-stage field checklist without claiming the current system passes.
 - Converted narrative success criteria into requirement IDs and matching verification tests.
 - Clarified the evidence level of reported prototype progress and unresolved design decisions.
 - Expanded reference-project licensing and reuse boundaries.
