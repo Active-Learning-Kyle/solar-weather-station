@@ -17,8 +17,8 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Review date | 18 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
 | Current paired increment | Course Activity 1 uses Issue #3 as a read-only live example; this project adds the stakeholder-validation plan and record that students inspect |
-| Current result | roles and links remain consistent; provisional stakeholder/site/decision claims are visibly separated from validated evidence |
-| Next review trigger | stakeholder interview/site-walk evidence, project prototype/test milestone, course-stage/template change, release, or stale/broken link |
+| Current result | Gate A confirms the instructor decision owner, first-run decision, buy/build rule and claim boundary; site/authority/TA/reference/test evidence remain visibly open |
+| Next review trigger | course exemplar status update for Gate A, TA interview/site walk, project prototype/test milestone, course-stage/template change, release, or stale/broken link |
 
 ## Current teaching use
 
@@ -26,9 +26,9 @@ The course repository's first formal GitHub active-learning exercise points stud
 
 The live teaching example must therefore preserve three distinctions:
 
-1. the instructor/TA stakeholder, Tam Wing Fan Innovation Wing One vicinity and field-readiness decision are hypotheses;
-2. the validation plan describes how evidence will be gathered; and
-3. the validation record remains blank until an authorised interview, site walk or decision test occurs.
+1. the instructor's supervised field-readiness decision is supported by VAL-001;
+2. the Tam Wing Fan Innovation Wing One candidate point, formal authority, TA workflow, reference access, thresholds and prototype performance remain open; and
+3. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
 
 Course activity: [GitHub active-learning starter](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology/blob/main/activities/github-active-learning-starter.md).
 

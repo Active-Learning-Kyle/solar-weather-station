@@ -2,6 +2,8 @@
 
 Use `test-matrix.csv` to trace requirements to tests. Store reviewed scripts, sample data, photos, and reports in clearly named subfolders.
 
+For the first supervised outdoor run, copy and complete the [72-hour field-readiness record](field-readiness-checklist.md). It separates pre-deployment approval, automatic/daily monitoring, post-retrieval inspection and the final `continue / modify / return to bench` decision.
+
 Every test record should include:
 
 - Test ID, date, author, and objective
@@ -12,4 +14,3 @@ Every test record should include:
 - Raw data and observations
 - Pass/fail/inconclusive outcome
 - Follow-up Issue or design decision
-

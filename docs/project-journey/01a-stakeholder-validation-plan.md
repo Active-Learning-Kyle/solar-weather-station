@@ -1,6 +1,6 @@
 # Issue #3 — Stakeholder, Site and Decision Validation Plan
 
-**Status:** validation package prepared; stakeholder/site claims remain provisional  
+**Status:** Gate A instructor interview completed; Gates B–E and site/reference/procurement evidence remain open
 **Issue:** [#3 Complete the existing-solution landscape study](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3)  
 **Purpose:** validate the decision context before re-scoring or locking the buy/adapt/build strategy
 
@@ -118,10 +118,10 @@ Only after Gates A–D:
 
 ## Evidence required to close Issue #3
 
-- [ ] Primary decision owner interviewed and decision statement confirmed or replaced.
+- [x] Primary decision owner interviewed and decision statement confirmed or replaced — VAL-001, 18 August 2026.
 - [ ] At least one TA workflow interview completed.
 - [ ] Site gatekeeper and permission route identified; candidate-site walk completed.
-- [ ] Decision outcomes, stop conditions and evidence needs agreed.
+- [x] Decision outcomes, qualitative stop conditions and first-run evidence needs agreed — numeric thresholds remain for Gate D.
 - [ ] Reference/loan options and data-access needs checked.
 - [ ] Tabletop decision test completed and disagreements recorded.
 - [ ] Matrix criteria/weights re-scored with stakeholder input and sensitivity reviewed.

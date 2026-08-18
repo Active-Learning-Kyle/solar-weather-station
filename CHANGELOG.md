@@ -22,6 +22,7 @@ All notable project changes will be recorded here.
 
 ### Changed
 
+- Completed the Gate A instructor interview and translated its field-readiness decision, stop controls, evidence/reference priorities, responsibility model, buy/build rule and sustainability-claim boundary into requirements, tests and a three-stage field checklist without claiming the current system passes.
 - Converted narrative success criteria into requirement IDs and matching verification tests.
 - Clarified the evidence level of reported prototype progress and unresolved design decisions.
 - Expanded reference-project licensing and reuse boundaries.
