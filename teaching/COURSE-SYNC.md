@@ -12,17 +12,17 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Item | Reviewed value |
 |---|---|
 | Course repository | `heqihao522828-crypto/ENGG2202-Green-Technology` |
-| Course baseline after A–E preview sync | `c159c93bd3d4314f05be04e44b07b3e3c2c8b736` — course PR #18 |
-| Exemplar A–E content baseline | `b4f36f1e8fe141a65b5b03b5190a8a535ea112ff` — project PR #22 |
+| Course baseline after v0.2 preview sync | `f209913b973b8b8e0d3cf828e608d63fc4076599` — course PR #19 |
+| Exemplar v0.2 preview baseline | `aff7c3eef85b5f29d69e30373e7e1e693c337ff7` — project PR #24 |
 | Review date | 19 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
-| Current paired increment | Project PR #22 completes the A–E teaching preview; course PR #18 links the overview and compares completed Issue #3 with open Issue #4 |
-| Current result | Both repositories select the conditional hybrid teaching direction and label fictional Gate C–E layers separately from real operational evidence |
-| Next review trigger | Real TA/site/reference/quotation evidence, sensor/power/prototype milestone, course-stage/template change or stale link |
+| Current paired increment | Project PR #24 adds the full sensor/BOM/power/integration/72-hour preview; course PR #19 teaches how a complete presentation remains distinct from measured evidence |
+| Current result | Both repositories present one coherent v0.2 baseline and preserve `synthetic_preview` versus physical/measured/field evidence |
+| Next review trigger | Real power/build/site/reference evidence, course-stage/template change or stale link |
 
 ## Current teaching use
 
-The course repository's first formal GitHub active-learning exercise compares completed [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3) with open [Issue #4](https://github.com/heqihao522828-crypto/solar-weather-station/issues/4). Students observe why a bounded Issue can close while the engineering project continues; they do not modify this repository during that exercise.
+The course repository's first formal GitHub active-learning exercise compares completed [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3), completed [Issue #4](https://github.com/heqihao522828-crypto/solar-weather-station/issues/4) and open measured-power [Issue #5](https://github.com/heqihao522828-crypto/solar-weather-station/issues/5). Students observe why research/decision scopes may close while generated values cannot satisfy a measurement Issue; they do not modify this repository during that exercise.
 
 The live teaching example must therefore preserve seven distinctions:
 
@@ -31,8 +31,9 @@ The live teaching example must therefore preserve seven distinctions:
 3. VAL-003 and the official enquiry route prepare Gate C, while the completed Candidate A/B response is explicitly synthetic teaching input;
 4. VAL-004 records the instructor's Gate D `revise` decision; the fictional TA/alignment completes the classroom presentation while real T-082 remains open;
 5. VAL-005 and the fictional sensitivity workshop select the conditional hybrid teaching direction, while real participant/procurement/reference checks T-083 remain open;
-6. the Tam Wing Fan Innovation Wing One candidate point, formal authority, reference access, thresholds and prototype performance remain open; and
-7. the validation plan/record shows why Issue #3 can close for its landscape-study scope without closing the operational tests or project.
+6. Issue #4 locks SHT45/BMP390/LTR390 as a preview decision without claiming system accuracy;
+7. Issues #1/#5/#6 contain complete teaching-preview packages but remain open for physical, measured and field evidence; and
+8. the validation plan/test matrix shows why a complete-looking repository can still contain honest blockers.
 
 Course activity: [GitHub active-learning starter](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology/blob/main/activities/github-active-learning-starter.md).
 
