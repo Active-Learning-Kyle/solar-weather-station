@@ -6,6 +6,11 @@ All notable project changes will be recorded here.
 
 ### Added
 
+- Issue #3 stakeholder/site/decision validation plan and reusable evidence record.
+- Read-only use of Issue #3 as the real engineering-Issue demonstration in ENGG2202 GitHub Activity 1.
+
+### Added
+
 - GitHub-native v0.1 repository structure.
 - Project-journey documentation, BOM and test templates.
 - ENGG2202 instructor-exemplar mapping.

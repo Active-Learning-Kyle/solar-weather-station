@@ -12,12 +12,25 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Item | Reviewed value |
 |---|---|
 | Course repository | `heqihao522828-crypto/ENGG2202-Green-Technology` |
-| Course baseline before current revision | `7270655dd0171769d67bcb7f91aed42f745b579c` |
-| Exemplar baseline before current revision | `21b4f833a65030b962bfea781de0cac26becd57a` |
+| Course baseline before current revision | `85292fca77f6e7c69e74044e17125123f5dff50a` |
+| Exemplar baseline before current revision | `0e40e3efd1ba09cb97c5bd09d251856590a0b96f` |
 | Review date | 18 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
-| Current result | roles and links remain consistent; cross-repository Pull Request checks added |
-| Next review trigger | project prototype/test milestone, course-stage/template change, release, or stale/broken link |
+| Current paired increment | Course Activity 1 uses Issue #3 as a read-only live example; this project adds the stakeholder-validation plan and record that students inspect |
+| Current result | roles and links remain consistent; provisional stakeholder/site/decision claims are visibly separated from validated evidence |
+| Next review trigger | stakeholder interview/site-walk evidence, project prototype/test milestone, course-stage/template change, release, or stale/broken link |
+
+## Current teaching use
+
+The course repository's first formal GitHub active-learning exercise points students to [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3). Students critique the Issue and observe the Issue–branch–commit–Pull Request evidence chain; they do not modify this repository during that exercise.
+
+The live teaching example must therefore preserve three distinctions:
+
+1. the instructor/TA stakeholder, Tam Wing Fan Innovation Wing One vicinity and field-readiness decision are hypotheses;
+2. the validation plan describes how evidence will be gathered; and
+3. the validation record remains blank until an authorised interview, site walk or decision test occurs.
+
+Course activity: [GitHub active-learning starter](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology/blob/main/activities/github-active-learning-starter.md).
 
 ## Change-impact rules
 

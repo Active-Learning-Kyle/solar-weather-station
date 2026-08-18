@@ -73,6 +73,8 @@ This is a staged strategy, not permission to purchase a particular product. Firs
 
 ## Work still needed to close Issue #3
 
+The sequence and evidence templates are now defined in the [stakeholder/site/decision validation plan](01a-stakeholder-validation-plan.md). Re-scoring before those gates would make the existing preference look more certain than the evidence supports.
+
 - Validate the provisional instructor/TA stakeholder and field-readiness decision through interviews and one site observation.
 - Obtain Hong Kong/institutional quotations and availability for shortlisted commercial and component options.
 - Select a comparison/reference instrument and define a co-location protocol.

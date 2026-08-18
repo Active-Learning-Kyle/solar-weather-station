@@ -54,7 +54,7 @@ The diagram is deliberately high-level. Pin assignments, electrical interfaces, 
 | Area | Status | Evidence needed next |
 |---|---|---|
 | Problem and project foundation | [Original v0.1 PDF imported](docs/source-documents/Solar_Weather_Station_Project_Foundation_v0.1.pdf) | Maintain traceability as the living documents evolve |
-| Solution landscape | First evidence-backed comparison completed | Validate the target user/use case and update quotations before concept lock |
+| Solution landscape | First evidence-backed comparison completed; [stakeholder/site validation plan prepared](docs/project-journey/01a-stakeholder-validation-plan.md) | Complete interviews, site walk, tabletop decision and stakeholder re-scoring before concept lock |
 | Reference-project lineage | Exact project links and observed licences recorded | Lock immutable commits before any file reuse |
 | ESP32-S3 architecture | Proposed | Add wiring, firmware, and bench-test evidence |
 | Environmental sensor | Pending decision | Selection matrix and calibration plan |
