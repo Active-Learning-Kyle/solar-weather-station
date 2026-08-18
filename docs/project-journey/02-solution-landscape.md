@@ -8,7 +8,7 @@ If the goal is only to obtain local weather data, buying a complete system may b
 
 ## Gate A-confirmed decision intent; site remains provisional
 
-The first decision is now confirmed as: **which approach best gives the ENGG2202 teaching team an independent reference plus a transparent, reproducible exemplar for making a `go / conditional go / no-go` decision on a supervised 72-hour first field validation near the Innovation Wing One candidate site?** The exact mounting point, site permission, TA workflow, reference access and thresholds remain open, so the matrix below is a decision aid to re-score, not a procurement approval.
+The first decision is now confirmed as: **which approach best gives the ENGG2202 teaching team an independent reference plus a transparent, reproducible exemplar for making a `go / conditional go / no-go` decision on a supervised 72-hour first field validation near the Innovation Wing One candidate site?** The Gate B TA interview is complete, but the exact mounting point, site permission, operational dry run, reference access and thresholds remain open, so the matrix below is a decision aid to re-score, not a procurement approval.
 
 ## Comparison of representative solutions
 
@@ -75,7 +75,7 @@ Gate A supports this strategy when engineering learning is the objective. If dep
 
 The sequence and evidence templates are now defined in the [stakeholder/site/decision validation plan](01a-stakeholder-validation-plan.md). Re-scoring before those gates would make the existing preference look more certain than the evidence supports.
 
-- Validate the TA workflow, site gatekeeper/permission route and candidate location; the instructor decision interview is complete.
+- Run the supervised TA workflow trial and validate the site gatekeeper/permission route and candidate location; the instructor and TA interviews are complete.
 - Obtain Hong Kong/institutional quotations and availability for shortlisted commercial and component options.
 - Select a comparison/reference instrument and define a co-location protocol.
 - Record exact access dates and immutable versions/commits for all repositories used in the final decision.

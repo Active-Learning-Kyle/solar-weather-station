@@ -19,7 +19,7 @@ It records not only the proposed solution, but also the green problem/baseline, 
 
 ## Why this project?
 
-Regional weather data does not always represent the microclimate where an engineering decision is made. The instructor interview confirms the first use as a `go / conditional go / no-go` decision for a supervised 72-hour first field validation of a student environmental-monitoring prototype. The candidate area remains adjacent to HKU's Tam Wing Fan Innovation Wing One, but the exact mounting point, permission, TA workflow, reference access and thresholds still require validation.
+Regional weather data does not always represent the microclimate where an engineering decision is made. The instructor interview confirms the first use as a `go / conditional go / no-go` decision for a supervised 72-hour first field validation of a student environmental-monitoring prototype. A real TA interview has defined the workflow needs, while the supervised dry run, exact point near HKU's Tam Wing Fan Innovation Wing One, permission, reference access and thresholds still require validation.
 
 ## Intended capabilities
 
@@ -54,7 +54,7 @@ The diagram is deliberately high-level. Pin assignments, electrical interfaces, 
 | Area | Status | Evidence needed next |
 |---|---|---|
 | Problem and project foundation | [Original v0.1 PDF imported](docs/source-documents/Solar_Weather_Station_Project_Foundation_v0.1.pdf) | Maintain traceability as the living documents evolve |
-| Solution landscape | First comparison plus Gate A instructor and Gate B [TA interviews](docs/project-journey/stakeholder-validation-record.md) completed; [operations pack](tests/field-operations-pack/README.md) drafted | Run the supervised TA workflow trial; complete site, reference/quotation, tabletop and stakeholder re-scoring before concept lock |
+| Solution landscape | First comparison plus Gate A instructor and Gate B [TA interviews](docs/project-journey/stakeholder-validation-record.md) completed; Gate C [site pack and clearly labelled synthetic teaching example](tests/site-validation-pack/README.md) prepared | For real deployment, replace the simulation with responsible-staff site evidence; also complete the TA dry run, reference/quotation, tabletop and stakeholder re-scoring before concept lock |
 | Reference-project lineage | Exact project links and observed licences recorded | Lock immutable commits before any file reuse |
 | ESP32-S3 architecture | Proposed | Add wiring, firmware, and bench-test evidence |
 | Environmental sensor | Pending decision | Selection matrix and calibration plan |
