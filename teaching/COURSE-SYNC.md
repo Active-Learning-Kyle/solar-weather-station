@@ -12,23 +12,24 @@ They must be reviewed together wherever one repository makes a claim about the o
 | Item | Reviewed value |
 |---|---|
 | Course repository | `heqihao522828-crypto/ENGG2202-Green-Technology` |
-| Course baseline after Gate A sync | `dcfb0e45d93bbe16b531d8cc3964ffc2db1097ee` — course PR #13 |
-| Exemplar Gate A content baseline | `6b4128f066f3a500ce651c9b6046ed5824f4bd60` — project PR #14 |
+| Course baseline after Gate B sync | `b443dd4b4fafc9364391bd7ff7ec0e9b9d7c01d9` — course PR #14 |
+| Exemplar Gate B content baseline | `29949e28526a021f84d31358e114251b1fa0ebf8` — project PR #16 |
 | Review date | 18 August 2026 |
 | Reviewed mapping | problem, solution landscape, reference reproduction, adaptation, budget, iteration, validation, release and reflection |
-| Current paired increment | Project PR #14 completes Gate A; course PR #13 updates the student-facing exemplar without copying engineering evidence |
-| Current result | The Gate B participant is confirmed as a real TA, completing the workflow interview; the project operator pack still requires a supervised dry run before deployment and remains unpaired until this project increment is merged |
-| Next review trigger | Gate B project merge followed by the matching course-exemplar update; then supervised TA dry run, site walk, reference/quotation evidence, tabletop/matrix re-score, prototype/test milestone or stale link |
+| Current paired increment | Project PR #16 completes the Gate B TA interview and operations pack; course PR #14 explains the Gate A/B method and links the pack without copying engineering evidence |
+| Current result | Both repositories now show the real-TA interview as completed while clearly retaining the supervised workflow dry run, site/authority, reference, thresholds and prototype performance as open evidence |
+| Next review trigger | Supervised TA dry run, site walk, reference/quotation evidence, tabletop/matrix re-score, prototype/test milestone, course-stage/template change or stale link |
 
 ## Current teaching use
 
 The course repository's first formal GitHub active-learning exercise points students to [Issue #3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3). Students critique the Issue and observe the Issue–branch–commit–Pull Request evidence chain; they do not modify this repository during that exercise.
 
-The live teaching example must therefore preserve three distinctions:
+The live teaching example must therefore preserve four distinctions:
 
 1. the instructor's supervised field-readiness decision is supported by VAL-001;
-2. the Tam Wing Fan Innovation Wing One candidate point, formal authority, TA workflow, reference access, thresholds and prototype performance remain open; and
-3. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
+2. a real TA's workflow requirements are supported by VAL-002, but operational executability is not proven until T-077/T-078 are completed;
+3. the Tam Wing Fan Innovation Wing One candidate point, formal authority, reference access, thresholds and prototype performance remain open; and
+4. the validation plan/record shows which evidence changed each status and what still blocks Issue #3.
 
 Course activity: [GitHub active-learning starter](https://github.com/heqihao522828-crypto/ENGG2202-Green-Technology/blob/main/activities/github-active-learning-starter.md).
 
