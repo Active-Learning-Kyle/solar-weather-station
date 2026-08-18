@@ -1,14 +1,14 @@
 # 02 - Existing-Solution Landscape
 
-**Study status:** first evidence-backed pass completed on 18 August 2026. Issue #3 remains open because user interviews, deployment context, updated quotations, and a scored concept-selection matrix are still required.
+**Study status:** first evidence-backed pass and Gate A instructor interview completed on 18 August 2026. Issue #3 remains open because TA/site validation, reference/loan availability, updated quotations, tabletop testing and stakeholder matrix re-scoring are still required.
 
 ## Question being investigated
 
 If the goal is only to obtain local weather data, buying a complete system may be better than designing one. A custom build is justified only if it creates additional value through modular interfaces, transparent data and calibration, repairability, open engineering files, or education.
 
-## Provisional decision context
+## Gate A-confirmed decision intent; site remains provisional
 
-The first decision is now framed as: **which approach best gives the ENGG2202 teaching team a reliable reference plus a transparent, reproducible exemplar for judging short outdoor deployment readiness near the Innovation Wing One candidate site?** The exact mounting point, site permission and stakeholder workflow are still hypotheses, so the matrix below is a decision aid to validate, not a final procurement approval.
+The first decision is now confirmed as: **which approach best gives the ENGG2202 teaching team an independent reference plus a transparent, reproducible exemplar for making a `go / conditional go / no-go` decision on a supervised 72-hour first field validation near the Innovation Wing One candidate site?** The exact mounting point, site permission, TA workflow, reference access and thresholds remain open, so the matrix below is a decision aid to re-score, not a procurement approval.
 
 ## Comparison of representative solutions
 
@@ -69,13 +69,13 @@ Scores use 1 (poor) to 5 (strong). Weights reflect the proposed teaching/test us
 
 **Concept E - use a bought, borrowed or shared reference instrument alongside an independently documented modular exemplar - is the current preferred strategy.** It avoids pretending a student-built station is already a measurement reference while preserving the interfaces, failures, power budget, code, CAD, tests and decision trail needed for ENGG2202 learning.
 
-This is a staged strategy, not permission to purchase a particular product. First seek an existing HKU instrument or short loan. Only procure after the stakeholder, site, comparison variables, data-access needs and quotation are confirmed.
+Gate A supports this strategy when engineering learning is the objective. If dependable local weather data alone is the objective, the stakeholder instead prefers a mature bought or borrowed system. This remains a staged strategy, not permission to purchase a particular product. First seek an existing HKU instrument or short loan; procure only after site, comparison variables, data access, maintenance ownership and quotation are confirmed.
 
 ## Work still needed to close Issue #3
 
 The sequence and evidence templates are now defined in the [stakeholder/site/decision validation plan](01a-stakeholder-validation-plan.md). Re-scoring before those gates would make the existing preference look more certain than the evidence supports.
 
-- Validate the provisional instructor/TA stakeholder and field-readiness decision through interviews and one site observation.
+- Validate the TA workflow, site gatekeeper/permission route and candidate location; the instructor decision interview is complete.
 - Obtain Hong Kong/institutional quotations and availability for shortlisted commercial and component options.
 - Select a comparison/reference instrument and define a co-location protocol.
 - Record exact access dates and immutable versions/commits for all repositories used in the final decision.

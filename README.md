@@ -19,7 +19,7 @@ It records not only the proposed solution, but also the green problem/baseline, 
 
 ## Why this project?
 
-Regional weather data does not always represent the microclimate where an engineering decision is made. The provisional first use is a controlled outdoor test point adjacent to HKU's Tam Wing Fan Innovation Wing One, where the ENGG2202 teaching team can judge whether a student environmental-monitoring prototype and its sensor/power/enclosure configuration are ready for a short field deployment. The exact mounting point, permission and stakeholder workflow still require validation.
+Regional weather data does not always represent the microclimate where an engineering decision is made. The instructor interview confirms the first use as a `go / conditional go / no-go` decision for a supervised 72-hour first field validation of a student environmental-monitoring prototype. The candidate area remains adjacent to HKU's Tam Wing Fan Innovation Wing One, but the exact mounting point, permission, TA workflow, reference access and thresholds still require validation.
 
 ## Intended capabilities
 
@@ -54,7 +54,7 @@ The diagram is deliberately high-level. Pin assignments, electrical interfaces, 
 | Area | Status | Evidence needed next |
 |---|---|---|
 | Problem and project foundation | [Original v0.1 PDF imported](docs/source-documents/Solar_Weather_Station_Project_Foundation_v0.1.pdf) | Maintain traceability as the living documents evolve |
-| Solution landscape | First evidence-backed comparison completed; [stakeholder/site validation plan prepared](docs/project-journey/01a-stakeholder-validation-plan.md) | Complete interviews, site walk, tabletop decision and stakeholder re-scoring before concept lock |
+| Solution landscape | First comparison and Gate A instructor interview completed; [validation plan/record active](docs/project-journey/01a-stakeholder-validation-plan.md) | Complete TA/site validation, reference/quotation checks, tabletop decision and stakeholder re-scoring before concept lock |
 | Reference-project lineage | Exact project links and observed licences recorded | Lock immutable commits before any file reuse |
 | ESP32-S3 architecture | Proposed | Add wiring, firmware, and bench-test evidence |
 | Environmental sensor | Pending decision | Selection matrix and calibration plan |
