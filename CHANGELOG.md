@@ -13,6 +13,7 @@ All notable project changes will be recorded here.
 - Immutable copies of Project Foundation v0.1 and the ENGG2202 course template, with provenance and SHA-256 records.
 - Project Foundation traceability from source sections to living requirements, decisions, BOM and tests.
 - First evidence-based solution-landscape comparison across commercial, open-source and research alternatives.
+- Provisional two-layer stakeholder/deployment context and weighted concept-selection matrix.
 
 ### Changed
 
@@ -20,6 +21,7 @@ All notable project changes will be recorded here.
 - Clarified the evidence level of reported prototype progress and unresolved design decisions.
 - Expanded reference-project licensing and reuse boundaries.
 - Aligned the instructor exemplar with the formal course learning outcomes, assessment weights and learning hours.
+- Clarified that the Solar Weather Station is one live exemplar linked from the separate ENGG2202 Project Studio course hub.
 
 ## [0.1.0] - 2026-08-18
 
