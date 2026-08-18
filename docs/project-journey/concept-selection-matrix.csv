@@ -1,0 +1,10 @@
+criterion,weight_percent,weight_rationale,turnkey_consumer_score,industrial_sensor_custom_logger_score,reproduce_open_green_energy_v4_score,independent_modular_exemplar_score,reference_plus_modular_exemplar_score,validation_needed
+Learning visibility and traceability,20,Primary value of a live ENGG2202 exemplar,2,4,5,5,5,Pilot with students and TAs
+Open reproducibility,15,Another team must inspect rebuild and modify the work,1,3,4,5,5,Confirm redistribution and licence boundaries
+Fitness for 72-hour teaching/readiness decision,15,Must expose field integration and diagnostic evidence,4,5,3,4,5,Confirm decision and acceptance criteria with instructor
+Deployment speed and baseline reliability,10,Teaching schedule needs a usable comparison baseline,5,4,2,2,4,Check access to loan/shared reference instrument
+Outdoor and power suitability,10,Initial use includes a short solar/battery outdoor deployment,4,5,3,3,4,Verify exact site exposure and complete-system power
+Modularity and repairability,10,Interfaces and failure modes must remain visible and serviceable,2,4,4,5,5,Define student-safe service boundary
+Lifecycle cost and procurement,10,Include total system cost lead time and institutional sourcing,4,1,4,3,2,Obtain Hong Kong quotations and loan options
+Safety and maintenance burden,10,Outdoor installation batteries tools and access require control,4,4,3,3,4,Complete site and activity risk assessment
+WEIGHTED_RESULT,100,Sum of weight multiplied by score divided by 5,61,76,73,79,88,Re-score after stakeholder validation

@@ -4,6 +4,8 @@
 
 This repository demonstrates an engineering learning journey, not a model answer for students to copy. It is intended to help the instructor and teaching assistants run the complete workflow before scaling the course.
 
+The course-wide framework now lives in the separate [ENGG2202 Project Studio](https://github.com/heqihao522828-crypto/ENGG2202-project-studio). This repository remains one live exemplar linked stage-by-stage from that hub.
+
 ## Formal course context
 
 The repository alignment below is based on the retained 10-page HKU course template in `teaching/source-documents/`:

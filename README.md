@@ -9,13 +9,15 @@
 
 **Learn from existing engineering → Rebuild → Adapt → Validate → Open-source → Teach forward.**
 
-This repository is both a real engineering project and an instructor exemplar for HKU ENGG2202. It records not only the proposed solution, but also the problem definition, alternatives considered, design decisions, budget, prototypes, failures, tests, and reflections.
+This repository is a real engineering project used as one live exemplar for HKU ENGG2202. The separate [ENGG2202 Project Studio](https://github.com/heqihao522828-crypto/ENGG2202-project-studio) contains the course-wide journey, active-learning checkpoints and reusable templates. This repository shows what that framework looks like when applied to one incomplete project.
+
+It records not only the proposed solution, but also the problem definition, alternatives considered, design decisions, budget, prototypes, failures, tests and reflections. Students may study the method and evidence; they are not expected to copy this project topic or solution.
 
 > [中文 GitHub 导览：每个页面和文件为什么存在](docs/GITHUB-GUIDE-ZH.md)
 
 ## Why this project?
 
-Regional weather data does not always represent the microclimate where engineering decisions are made. This project explores a reproducible, low-cost station that can collect local environmental data while operating from solar and battery power.
+Regional weather data does not always represent the microclimate where an engineering decision is made. The provisional first use is a controlled outdoor test point adjacent to HKU's Tam Wing Fan Innovation Wing One, where the ENGG2202 teaching team can judge whether a student environmental-monitoring prototype and its sensor/power/enclosure configuration are ready for a short field deployment. The exact mounting point, permission and stakeholder workflow still require validation.
 
 ## Intended capabilities
 

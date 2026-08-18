@@ -1,24 +1,34 @@
 # 01 — Problem Identification
 
+## Why two stakeholder layers are required
+
+The project has an educational role and an engineering role. Treating them as the same would allow "it is useful for teaching" to replace real problem identification.
+
+| Layer | Provisional primary stakeholder | Need | Decision/action supported | Validation status |
+|---|---|---|---|---|
+| ENGG2202 exemplar | Course instructor/TA team and student project teams | A live, inspectable example of the full problem-to-release journey | Decide what evidence and project quality should be visible at each course checkpoint | Supported by the course design; usability with TAs/students still requires pilot feedback |
+| Weather-station deployment | ENGG2202 instructor responsible for safe, repeatable outdoor project work | A transparent field reference and test platform at an accessible HKU site | Decide whether a student environmental-monitoring prototype is ready for a short outdoor deployment and which sensor, power and enclosure configuration should be used | Working hypothesis; stakeholder interview, site permission and observation are not complete |
+
+## Provisional deployment context
+
+- **Candidate place:** a controlled outdoor test point adjacent to [Tam Wing Fan Innovation Wing One](https://www.hku.hk/press/news_detail_21321.html), G/F and LG/F of the Hui Oi Chow Science Building on HKU Main Campus. Its prototyping facilities and engineering-learning purpose make it a relevant operational base. This is not an approved mounting location: the exact point, permission, access, exposure, network, security and maintenance conditions require an on-site decision with Innovation Wing staff.
+- **Duration:** initial bench qualification followed by a 72-hour outdoor integration test; this is not a long-term climate claim.
+- **Users:** the instructor/TA team operates the reference process; students inspect the evidence and may compare their own prototypes.
+- **Data/diagnostics:** temperature, humidity, pressure, wind, UV/environmental sensing, time/location context, power state, missing-data state, resets and bus faults as the approved configuration allows.
+- **Decision boundary:** the data supports engineering readiness, configuration and teaching decisions. It must not be used as an official weather service or sole basis for safety-critical decisions.
+
 ## Working problem statement
 
-Regional weather observations may not represent the microclimate at the exact location where an engineering or environmental decision is made. Existing local stations can also be expensive, closed, difficult to modify, or insufficiently documented for education.
+> The ENGG2202 teaching team needs a reproducible way to evaluate whether an environmental-monitoring prototype and its sensor, power and enclosure configuration are ready for a short outdoor deployment at an accessible HKU teaching site, because regional weather data and a polished demonstration alone do not expose local conditions, integration failures, power behaviour or the evidence students need to learn from the decision.
 
-## Stakeholders to validate
+## Evidence needed before this becomes a validated problem
 
-- Engineering students and educators
-- Researchers and project teams needing local observations
-- Facilities, agriculture, resilience, and sustainability projects
-- Maintainers responsible for installation and data quality
-
-## Questions still open
-
-- Which user decision will the first deployment support?
-- What spatial and temporal resolution is actually required?
-- Who installs, calibrates, maintains, and interprets the station?
-- What failure or inaccurate measurement would create the greatest harm?
+1. Interview the course instructor and at least one TA about the field-readiness decision and current workflow.
+2. Walk the Innovation Wing One candidate area with the responsible staff member and record permission, access, mounting, exposure, network, security, maintenance and safety constraints.
+3. Ask a small student/TA group to use the exemplar links during one checkpoint and identify what they can and cannot understand.
+4. Define what outcome would change the decision: deploy, revise configuration, return to bench testing or buy/borrow a reference instrument.
+5. Identify the maintainer and response when data, power or enclosure evidence fails.
 
 ## ENGG2202 learning purpose
 
-The problem should be investigated before a preferred technology becomes the answer. Student teams should support claims with observations, interviews, literature, or field evidence.
-
+Students should see that the stakeholder and problem statement remain hypotheses until investigated. The repository exposes this uncertainty instead of allowing the preferred ESP32-S3 design to become the problem definition.

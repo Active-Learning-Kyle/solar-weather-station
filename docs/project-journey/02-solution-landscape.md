@@ -6,6 +6,10 @@
 
 If the goal is only to obtain local weather data, buying a complete system may be better than designing one. A custom build is justified only if it creates additional value through modular interfaces, transparent data and calibration, repairability, open engineering files, or education.
 
+## Provisional decision context
+
+The first decision is now framed as: **which approach best gives the ENGG2202 teaching team a reliable reference plus a transparent, reproducible exemplar for judging short outdoor deployment readiness near the Innovation Wing One candidate site?** The exact mounting point, site permission and stakeholder workflow are still hypotheses, so the matrix below is a decision aid to validate, not a final procurement approval.
+
 ## Comparison of representative solutions
 
 Prices are official USD list prices observed on 18 August 2026 where available; they exclude shipping, mounting, gateways, optional sensors, taxes, and institutional procurement costs.
@@ -45,10 +49,32 @@ This direction deliberately trades turnkey convenience and certified performance
 5. **Treat the 72-hour run as endurance/integration evidence**, followed by longer co-location and calibration if measurement quality is part of the claim.
 6. **Control scope:** rain, particulate matter, soil sensing and LoRa should not all enter v0.2 unless the target use case requires them.
 
+## Provisional weighted concept-selection matrix
+
+Scores use 1 (poor) to 5 (strong). Weights reflect the proposed teaching/test use rather than a general weather-data purchase. The editable calculation is retained in [`concept-selection-matrix.csv`](concept-selection-matrix.csv).
+
+| Criterion | Weight | A: turnkey consumer station | B: industrial sensor + custom logger | C: reproduce Open Green Energy V4 | D: independent modular exemplar | E: reference instrument + modular exemplar |
+|---|---:|---:|---:|---:|---:|---:|
+| Learning visibility and traceability | 20% | 2 | 4 | 5 | 5 | 5 |
+| Open reproducibility | 15% | 1 | 3 | 4 | 5 | 5 |
+| Fitness for the 72-hour teaching/readiness decision | 15% | 4 | 5 | 3 | 4 | 5 |
+| Deployment speed and baseline reliability | 10% | 5 | 4 | 2 | 2 | 4 |
+| Outdoor/power suitability | 10% | 4 | 5 | 3 | 3 | 4 |
+| Modularity and repairability | 10% | 2 | 4 | 4 | 5 | 5 |
+| Lifecycle cost and procurement | 10% | 4 | 1 | 4 | 3 | 2 |
+| Safety and maintenance burden | 10% | 4 | 4 | 3 | 3 | 4 |
+| **Weighted result (/100)** | **100%** | **61** | **76** | **73** | **79** | **88** |
+
+### Provisional selection
+
+**Concept E - use a bought, borrowed or shared reference instrument alongside an independently documented modular exemplar - is the current preferred strategy.** It avoids pretending a student-built station is already a measurement reference while preserving the interfaces, failures, power budget, code, CAD, tests and decision trail needed for ENGG2202 learning.
+
+This is a staged strategy, not permission to purchase a particular product. First seek an existing HKU instrument or short loan. Only procure after the stakeholder, site, comparison variables, data-access needs and quotation are confirmed.
+
 ## Work still needed to close Issue #3
 
-- Identify one primary stakeholder and the decision the first deployment will support.
+- Validate the provisional instructor/TA stakeholder and field-readiness decision through interviews and one site observation.
 - Obtain Hong Kong/institutional quotations and availability for shortlisted commercial and component options.
-- Add a weighted selection matrix covering cost, accuracy, openness, power, maintainability, safety, procurement and learning value.
 - Select a comparison/reference instrument and define a co-location protocol.
 - Record exact access dates and immutable versions/commits for all repositories used in the final decision.
+- Re-score the matrix with the stakeholder and record disagreements/sensitivity before concept lock.
