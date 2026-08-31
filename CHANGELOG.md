@@ -1,45 +1,40 @@
 # Changelog
 
-All notable project changes will be recorded here.
+This file records project releases and milestone-level changes. Detailed evidence remains in [`docs/milestones/`](docs/milestones/).
 
-## [Unreleased]
+## Unreleased
 
-### Added
+- Migrated the verified Core v0.4 hardware, firmware, backend, CAD and evidence into the independent public-project history.
+- Rebuilt the README around the project motivation, SDG direction, real prototype, live dashboard, internal electronics, editable CAD and reproduction path.
+- Added transparent provenance notes for project photographs, generated explanatory visualisations and SDG communication assets.
+- Added the six-Gate project journey, system test matrix and field-readiness record.
+- Added continuous integration for the backend and all firmware environments.
+- Added public contribution, security, AI-use, third-party dependency and release guidance.
+- Added the MIT License and reorganised the README as the repository front door.
 
-- Complete `v0.2-teaching-preview` baseline: environmental sensor ADR/matrix, exact preview architecture, expanded BOM, power tree/model, firmware scaffold, enclosure specification, data schema and release checklist.
-- Deterministic synthetic 72-hour generator, 432-record dataset, calculated summary, daily/retrieval records, visual status card and decision report.
-- Issue #3 stakeholder/site/decision validation plan and reusable evidence record.
-- Read-only use of Issue #3 as the real engineering-Issue demonstration in ENGG2202 GitHub Activity 1.
+## Core v0.4
 
-### Added
+- Integrated verified RS485 wind speed into the production firmware, JSON payload, API, SQLite storage, dashboard and history charts.
+- Preserved valid calm readings as `0.0 m/s` and timeouts as unavailable.
+- Kept wind direction as a separate diagnostic.
+- Retained backward compatibility with v0.3 payloads and databases.
+- Added editable mechanical CAD, print preparation and assembly documentation for the Weather Station Body, Power Module and Connecting Base.
 
-- GitHub-native v0.1 repository structure.
-- Project-journey documentation, BOM and test templates.
-- ENGG2202 instructor-exemplar mapping.
-- Contribution, third-party attribution, licence-review, and AI-use guidance.
-- Immutable copies of Project Foundation v0.1 and the ENGG2202 course template, with provenance and SHA-256 records.
-- Project Foundation traceability from source sections to living requirements, decisions, BOM and tests.
-- First evidence-based solution-landscape comparison across commercial, open-source and research alternatives.
-- Provisional two-layer stakeholder/deployment context and weighted concept-selection matrix.
+## Core v0.3
 
-### Changed
+- Integrated TEL0157/L76K GNSS communication, fix state, UTC, position, altitude, satellites and motion.
+- Added independent GNSS diagnostics and a documented NMEA hemisphere workaround.
+- Added nullable GNSS API and database fields while preserving earlier records.
+- Added privacy-safe public evidence.
 
-- Selected SHT45 + BMP390 + LTR390 for the preview and connected Issues #4/#5/#1/#6 into one traceable configuration while preserving all real-evidence blockers.
-- Completed the Gate A instructor interview and translated its field-readiness decision, stop controls, evidence/reference priorities, responsibility model, buy/build rule and sustainability-claim boundary into requirements, tests and a three-stage field checklist without claiming the current system passes.
-- Completed the Gate B TA workflow interview and added a concise field-operations pack with explicit stop/escalation actions, timing, expected-behaviour fields, contacts/access/tools readiness and supervised dry-run tests.
-- Added Gate C instructor pre-walk requirements and a site-validation pack covering authority, reversible mounting, access, public/security risk, environmental bias, network/local logging, weather response and reference-instrument enquiry without claiming site approval.
-- Added a prominently labelled synthetic Gate C completion example for ENGG2202 discussion, including a rejected open-site candidate and a conditionally selected controlled candidate without representing fictional content as HKU permission.
-- Added Gate D synthetic tabletop data, instructor `revise` decision and independent TA alignment form, plus a provisional Gate E hybrid reference-plus-educational-prototype strategy with final scoring/evidence gates left open.
-- Completed the Gates A–E teaching preview with a prominently labelled fictional TA response/alignment, Gate E sensitivity workshop and one-page decision journey; real deployment and procurement evidence remain open.
-- Converted narrative success criteria into requirement IDs and matching verification tests.
-- Clarified the evidence level of reported prototype progress and unresolved design decisions.
-- Expanded reference-project licensing and reuse boundaries.
-- Aligned the instructor exemplar with the formal course learning outcomes, assessment weights and learning hours.
-- Clarified that the Solar Weather Station is one live exemplar linked from the separate ENGG2202 Green Technology course repository.
+## Core v0.2
 
-## [0.1.0] - 2026-08-18
+- Added non-blocking Wi-Fi reconnects and periodic HTTP uploads.
+- Added FastAPI validation, SQLite storage and latest/history endpoints.
+- Added the responsive local dashboard and backend automated tests.
 
-### Added
+## Core v0.1
 
-- Initial Private repository foundation.
-
+- Integrated SHT4x, BMP180, BH1750, LTR390 and PMS7003 sensing.
+- Added shared measurement snapshots, explicit sensor health, validation, staleness and failure counters.
+- Added isolated I²C and PMS7003 diagnostics.

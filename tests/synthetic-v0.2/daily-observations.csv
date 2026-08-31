@@ -1,6 +1,0 @@
-timestamp_iso8601,observer_role,evidence_level,online,data_plausible,battery_trend,enclosure,mounting_cables,weather_risk,action
-2026-08-20T10:00:00+08:00,fictional student operator,SYNTHETIC_TEACHING_PREVIEW,yes,yes,charging in daylight,dry no visible condensation,stable,within fictional test envelope,continue
-2026-08-21T10:00:00+08:00,fictional student operator,SYNTHETIC_TEACHING_PREVIEW,yes,yes,night drop recovered after sunrise,dry no visible condensation,stable,within fictional test envelope,continue
-2026-08-22T10:00:00+08:00,fictional student operator,SYNTHETIC_TEACHING_PREVIEW,yes,yes,model margin maintained,dry no visible condensation,stable,within fictional test envelope,continue
-2026-08-23T08:50:00+08:00,fictional TA role,SYNTHETIC_TEACHING_PREVIEW,yes,yes,above fictional stop threshold,dry no visible condensation,stable,retrieval window clear,retrieve and inspect
-

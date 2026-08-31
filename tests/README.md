@@ -1,25 +1,34 @@
-# Tests and Validation Evidence
+# System Tests and Validation Evidence
 
-Use `test-matrix.csv` to trace requirements to tests. Store reviewed scripts, sample data, photos, and reports in clearly named subfolders.
+The backend test suite and PlatformIO builds check software behavior. The records in this folder connect those checks with bench, integration, mechanical and future field evidence.
 
-For the first supervised outdoor run, copy and complete the [72-hour field-readiness record](field-readiness-checklist.md). It separates pre-deployment approval, automatic/daily monitoring, post-retrieval inspection and the final `continue / modify / return to bench` decision.
+## Evidence levels
 
-For on-site operation, start with the [field operations pack](field-operations-pack/README.md): a short three-stage checklist, anomaly/action guide and contacts/access/tools record. The quick pack does not replace the full evidence record.
+| Level | Meaning |
+| --- | --- |
+| Automated | A repeatable software check runs locally and in continuous integration |
+| Bench verified | Named hardware behavior was observed under a documented bench procedure |
+| Integrated verified | The complete named configuration passed an end-to-end procedure |
+| Field verified | A versioned configuration operated at an approved site under documented conditions |
+| Pending | The acceptance procedure or required authority is not complete |
 
-Before choosing or approving a location, complete the [Gate C site-validation pack](site-validation-pack/README.md) with the responsible site staff. Instructor requirements or a useful-looking location are not site permission.
+## Main records
 
-Use the [Gate D tabletop-decision pack](tabletop-decision-pack/README.md) to compare independent instructor/TA decisions on a deliberately ambiguous synthetic 72-hour case. It tests thresholds, displays and authority—not prototype performance.
+- [`test-matrix.csv`](test-matrix.csv) links project claims to acceptance criteria, evidence and status.
+- [`field-readiness-checklist.md`](field-readiness-checklist.md) controls preparation, monitoring, retrieval and review for an outdoor test.
+- [`backend/tests/`](../backend/tests/) contains automated API, storage, compatibility and dashboard tests.
+- [`docs/milestones/`](../docs/milestones/) contains hardware procedures and observed milestone evidence.
 
-Use the [v0.2 synthetic integration pack](synthetic-v0.2/README.md) to inspect a later, corrected end-to-end example with a generated 432-record dataset, daily observations, retrieval inspection and a narrower progression decision. Its reproducible pipeline is complete; none of its values is measured.
+## Minimum content for a new test record
 
-Every test record should include:
+- test ID, date and author;
+- repository commit and firmware environment;
+- exact board, sensor, CAD and wiring revisions;
+- equipment and reference-instrument information;
+- conditions and procedure;
+- acceptance criteria written before the result;
+- raw data, logs, photographs or observations;
+- pass, fail or inconclusive outcome; and
+- the resulting Issue, revision or claim change.
 
-- Test ID, date, author, and objective
-- Hardware, firmware, CAD, and BOM revisions
-- Equipment and calibration status
-- Conditions and procedure
-- Acceptance criteria defined before the result
-- Raw data and observations
-- Pass/fail/inconclusive outcome
-- Follow-up Issue or design decision
-
+Compilation is not hardware verification. A diagnostic pass is not production integration. A bench test is not evidence of outdoor reliability.

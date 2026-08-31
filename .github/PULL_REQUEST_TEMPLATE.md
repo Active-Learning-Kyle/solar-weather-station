@@ -1,29 +1,32 @@
-## What changed?
+## What changed
 
-Describe the focused change.
+Describe the engineering decision and the affected firmware, backend, hardware, CAD or documentation.
 
-## Why?
+## Why
 
-Link the Issue, requirement, evidence, or design decision.
+Link the issue, need, evidence or failure that motivated the change.
 
-## How was it verified?
+## Verification
 
-- [ ] Documentation links checked
-- [ ] Relevant build or test completed
-- [ ] Hardware/firmware/CAD/BOM revisions recorded
-- [ ] Raw evidence attached or linked
-- [ ] Safety and risk consequences reviewed
-- [ ] Third-party licence and attribution reviewed
-- [ ] Significant AI assistance logged
+- [ ] I ran the relevant automated tests or firmware build environments.
+- [ ] I recorded the exact commands and results below.
+- [ ] Hardware claims identify the board/module, setup and observed result.
+- [ ] Compilation is not presented as hardware verification.
 
-## Limitations and follow-up
+Commands and results:
 
-State what remains unverified or out of scope.
+```text
+Add verification output or a concise result summary here.
+```
 
-## ENGG2202 course-hub impact
+## Evidence and claim boundaries
 
-- [ ] I reviewed whether this change affects `ENGG2202-Green-Technology`.
-- [ ] The paired Issue / Pull Request is linked below, or I explained why the course hub is not affected.
-- [ ] Course links, project status and teaching-stage mapping were checked.
+State what this change demonstrates, what remains unverified and any failed attempts.
 
-Paired Issue / Pull Request or `not affected` rationale:
+## Safety, privacy and release
+
+- [ ] No credentials, personal paths or private network details are included.
+- [ ] Precise location data and identifiable people have been removed or consented.
+- [ ] Third-party code, data and media are attributed in `THIRD_PARTY.md` where required.
+- [ ] Material AI assistance is disclosed and human-verified as described in `AI_USE.md`.
+- [ ] Relevant README, milestone, test-matrix or release-checklist entries are updated.

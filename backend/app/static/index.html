@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solar Weather Station Monitor</title>
+  <link rel="stylesheet" href="/static/style.css?v=20260831-wind">
+</head>
+<body>
+  <div class="app-window">
+    <header class="app-header">
+      <h1>Solar Weather Station Monitor</h1>
+    </header>
+
+    <section class="toolbar" aria-label="Dashboard controls">
+      <div class="toolbar-control">
+        <label for="station">Station:</label>
+        <input id="station" class="classic-input sunken-panel" value="ws-esp32s3-001">
+      </div>
+      <div class="toolbar-control">
+        <label for="period">Trend period:</label>
+        <select id="period" class="classic-select sunken-panel">
+          <option value="1">1 Hour</option>
+          <option value="24" selected>24 Hours</option>
+          <option value="168">7 Days</option>
+        </select>
+      </div>
+      <button id="refresh" type="button" class="classic-button">Refresh Now</button>
+    </section>
+
+    <main class="app-content">
+      <div class="summary-grid">
+        <fieldset class="group-box station-box">
+          <legend>Station Information</legend>
+          <dl class="info-table">
+            <dt>Station ID:</dt><dd id="infoStation">ws-esp32s3-001</dd>
+            <dt>Firmware:</dt><dd id="infoFirmware">&mdash;</dd>
+            <dt>Last data:</dt><dd id="infoLast">Waiting...</dd>
+            <dt>Uptime:</dt><dd id="infoUptime">&mdash;</dd>
+            <dt>Status:</dt><dd><span id="reportDot" class="status-light" aria-hidden="true"></span><strong id="reportStatus">Waiting for data</strong></dd>
+          </dl>
+          <div id="reportedAt" class="timestamp sunken-panel">No measurement received</div>
+        </fieldset>
+
+        <section id="cards" class="reading-groups" aria-label="Current conditions">
+          <fieldset class="group-box">
+            <legend>Environmental Conditions</legend>
+            <div id="environmentReadings" class="reading-table"></div>
+          </fieldset>
+          <fieldset class="group-box">
+            <legend>Particulate Matter</legend>
+            <div id="particulateReadings" class="reading-table"></div>
+          </fieldset>
+        </section>
+
+        <fieldset class="group-box location-box">
+          <legend>Location / GNSS</legend>
+          <dl class="info-table gnss-table">
+            <dt>Fix:</dt><dd><strong id="gnssFix">&mdash;</strong></dd>
+            <dt>Satellites:</dt><dd id="gnssSatellites">&mdash;</dd>
+            <dt>Latitude:</dt><dd id="gnssLatitude">&mdash;</dd>
+            <dt>Longitude:</dt><dd id="gnssLongitude">&mdash;</dd>
+            <dt>Altitude:</dt><dd id="gnssAltitude">&mdash;</dd>
+            <dt>UTC:</dt><dd id="gnssUtc">&mdash;</dd>
+          </dl>
+        </fieldset>
+
+        <fieldset class="group-box wind-box">
+          <legend>Wind</legend>
+          <dl class="info-table">
+            <dt>Wind Speed:</dt><dd><strong id="windSpeed">&mdash;</strong> m/s</dd>
+            <dt>Status:</dt><dd><strong id="windStatus">NOT CONNECTED</strong></dd>
+          </dl>
+          <p class="deferred-note">Wind direction deferred</p>
+        </fieldset>
+
+        <fieldset class="group-box sensor-box">
+          <legend>Sensor Status</legend>
+          <div class="sensor-heading"><span>Device</span><span>State</span></div>
+          <div id="sensorStatus" class="sensors">
+            <div class="empty-state">Awaiting sensor report...</div>
+          </div>
+        </fieldset>
+      </div>
+
+      <fieldset class="group-box trends-box">
+        <legend>Historical Trends</legend>
+        <div class="trend-description sunken-panel">
+          Displaying <strong id="periodLabel">24 Hours</strong> of stored observations. Use the toolbar to change the period.
+        </div>
+        <div id="charts" class="charts"></div>
+      </fieldset>
+
+      <p id="error" class="error-message sunken-panel" role="alert" hidden></p>
+    </main>
+
+    <footer class="status-bar">
+      <span id="statusReady" class="status-section sunken-panel">Ready</span>
+      <span id="statusConnection" class="status-section sunken-panel">Station: Waiting</span>
+      <span id="statusTime" class="status-section sunken-panel">Last update: --:--:--</span>
+    </footer>
+  </div>
+  <script src="/static/dashboard.js?v=20260831-wind"></script>
+</body>
+</html>

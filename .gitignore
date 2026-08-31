@@ -1,19 +1,9 @@
-# Local editor and operating-system files
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Build outputs and secrets
-build/
 .pio/
-*.log
-.env
-.env.*
-secrets.*
-
-# Local raw data can be large; publish reviewed samples deliberately
-data/raw/
-
-# Local review and extraction files
-tmp/
+firmware/.pio/
+firmware/.venv/
+firmware/include/secrets.h
+backend/.venv/
+backend/.pytest_cache/
+backend/**/__pycache__/
+backend/*.db

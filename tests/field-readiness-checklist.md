@@ -1,127 +1,81 @@
-# 72-Hour Field-Readiness Record
+# Field-Readiness Checklist
 
-**Status:** Gate A-informed template; TA, site, reference-access and responsible safety approval still required
+Use this record for a supervised outdoor test. Complete the blanks in a dated copy and keep private contact or access details outside the public repository.
 
-**Related requirements:** SAF-001, DEC-001, DEC-002, DAT-002, OPS-001, FLD-002, FLD-003, FLD-004, REF-001 and SUS-001
+## Test identity
 
-**Related Issue:** [#3](https://github.com/heqihao522828-crypto/solar-weather-station/issues/3)
+| Item | Record |
+| --- | --- |
+| Test ID and date | |
+| Repository commit | |
+| Firmware environment and version | |
+| Hardware, CAD and BOM revisions | |
+| Approved site description | |
+| Responsible authority | |
+| Test lead and observers | |
+| Reference instrument and status | |
+| Planned start, retrieval and access windows | |
 
-Use one copy for one configuration and deployment attempt. A checked box records an observation; it does not by itself prove long-term reliability or approve the site.
+## Before deployment
 
-Use the [field operations pack](field-operations-pack/README.md) for concise on-site checks and escalation. Preserve this longer record for reviewed evidence and the final decision.
+- [ ] Written site permission and access route are confirmed.
+- [ ] Mounting, fall zone, public contact, tamper and cable risks are reviewed.
+- [ ] Weather forecast and stop thresholds are recorded.
+- [ ] Battery, charging, fusing, polarity and 12 V isolation are checked.
+- [ ] The enclosure is dry, closed, strain relieved and labelled.
+- [ ] Credentials and precise coordinates will not enter public evidence.
+- [ ] Local logging or the accepted network-loss behavior is understood.
+- [ ] Sensor values and health states are plausible on the bench.
+- [ ] Time, station ID, firmware version and configuration are recorded.
+- [ ] The reference method, sampling interval and acceptance criteria are fixed.
+- [ ] Safe de-energising and retrieval can be performed at any time.
 
-## Test identity and responsibility
+## Stop conditions
 
-- **Configuration / firmware / hardware revisions:**
-- **Test purpose and decision to be made:**
-- **Candidate site and approved test boundary:**
-- **Planned start / retrieval:**
-- **Site/location approver:**
-- **Instructor decision owner:**
-- **Student operator(s):**
-- **TA supervisor / checklist reviewer:**
-- **Daily checker and backup:**
-- **Fault contact / safe-removal owner:**
-- **Approved weather envelope / forecast check:**
-- **Reference instrument / contextual comparison / specification:**
-- **Variable-specific project tolerance or investigation trigger:**
+Stop or retrieve the test if any of the following occurs:
 
-Project ownership does not grant safety approval. Any person who identifies an immediate safety hazard may stop and isolate the test; restarting requires the named responsible decision owner.
+- unsafe mounting, exposed conductor, damaged battery or overheating;
+- water near energized electronics;
+- severe weather outside the approved condition;
+- enclosure, cable or support movement;
+- repeated unexplained resets or loss of required data;
+- public interference or a request from responsible site staff; or
+- any observer identifies an immediate hazard.
 
-## A. Before deployment
+Record who may stop the test, who authorises restart and how retrieval occurs.
 
-### Purpose, roles and stop controls
+## During the test
 
-- [ ] The test purpose, three decision outcomes and evidence limits are understood.
-- [ ] Site/location permission and public-space constraints are recorded.
-- [ ] Student, TA, instructor, fault-contact and removal roles are named.
-- [ ] Immediate stop conditions and the safe isolation/removal method are reviewed.
+For each observation period, record:
 
-### Electrical, sensing and data readiness
+- station and reference status;
+- power state and available telemetry;
+- enclosure, mounting and cable condition;
+- weather and nearby disturbances;
+- network outages, restarts, stale values and recoveries;
+- unexpected readings or sensor disagreement; and
+- action taken and person responsible.
 
-- [ ] Battery/protection/supply show no distress, damage, abnormal heat or short-circuit risk.
-- [ ] Primary sensors produce plausible values and visible validity/diagnostic state.
-- [ ] Timestamps, battery voltage, missing-data state, restart state and local-logging state are recorded.
-- [ ] Network loss does not prevent local logging; reconnection/recovery behaviour is checked.
-- [ ] Controlled restart returns the system to the intended logging state.
-- [ ] Reference availability/method, metadata and comparison timing are recorded; limitations are stated.
+## Retrieval and inspection
 
-### Physical and site readiness
+- [ ] De-energise before opening the enclosure.
+- [ ] Photograph the installation and permitted evidence before removal.
+- [ ] Inspect for ingress, condensation, corrosion, loose connectors and movement.
+- [ ] Record final battery and physical condition.
+- [ ] Preserve raw data before cleaning or transformation.
+- [ ] Summarise completeness, outages, resets, stale periods and anomalies.
+- [ ] Compare priority variables with the documented reference.
+- [ ] Redact precise coordinates, contacts and restricted site details.
 
-- [ ] Enclosure, cable glands, connectors and protected wiring show no visible ingress path or damage.
-- [ ] Mounting is secure against the approved load/weather envelope and does not create fall/trip hazards.
-- [ ] Public contact, tampering and emergency access/removal are controlled.
-- [ ] Forecast and current conditions are within the approved test envelope.
+## Decision
 
-### Start decision
+Choose one and explain the evidence:
 
-- [ ] **Go** — begin the run under the stated controls.
-- [ ] **Conditional go** — complete the named change/check before starting.
-- [ ] **No-go** — return to bench or revise the site/test plan.
+- [ ] Continue to the next supervised test.
+- [ ] Revise named subsystems, then repeat bench tests.
+- [ ] Return the complete system to the bench.
+- [ ] Retain this configuration as a reference only.
 
-- **Conditions / reason / required evidence:**
-- **Student and TA check completed by:**
-- **Instructor start decision / date:**
-- **Site approval reference:**
+**Decision, evidence and required changes:**
 
-## B. During the run
-
-### Automatic evidence required for the first run
-
-- primary sensor readings and diagnostic/validity state;
-- timestamps and missing intervals;
-- battery voltage/basic supply state;
-- restarts and recovery events;
-- local-logging state; and
-- significant communication failures.
-
-Basic solar input, internal temperature and detailed interface statistics are helpful or required when they affect the specific decision. Long-term reliability statistics, battery-degradation modelling, packet-level analysis and fixed-site GNSS accuracy are outside the first-run minimum unless explicitly made part of the test.
-
-### Daily observation
-
-| Date/time | Observer | Online/logging? | Data plausible / gaps? | Battery trend | Ingress/condensation | Mount/cables/public condition | Weather/risk change | Action / Issue link |
-|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | |
-
-For an immediate safety hazard—battery distress, wet energised electronics, abnormal heat/smoke, unstable mounting, uncontrolled public risk or weather beyond the approved envelope—stop first and escalate. For a non-immediate data/technical fault, record evidence and escalate the continuation decision to the instructor.
-
-## C. Retrieval and post-test inspection
-
-- [ ] The system is safely de-energised before opening or handling exposed connections.
-- [ ] Battery final condition and voltage are recorded.
-- [ ] Enclosure interior is checked for water, condensation and corrosion.
-- [ ] Connectors, cables and glands are checked for loosening, damage or change.
-- [ ] Mounting is checked for movement, loosening or deformation.
-- [ ] Sensor surfaces are checked for contamination or obstruction.
-- [ ] Electrical, battery or severe-ingress hazards are referred to competent staff rather than handled unsupervised by students.
-
-### Data summary
-
-- **Expected / received records and completeness:**
-- **Missing periods:**
-- **Restart / reset count and known causes:**
-- **Communication failures:**
-- **Recovery attempts / successful recoveries:**
-- **Sensor anomalies / contamination context:**
-- **Observed environmental causes versus suspected design causes:**
-- **Reference observations, differences and uncertainty:**
-- **Difference beyond specification / investigation / calibration or replacement decision:**
-
-## D. Decision and next action
-
-Select one:
-
-- [ ] **Continue / go:** proceed to the named next supervised test.
-- [ ] **Continue with modification / conditional go:** change the named sensor, power, data, interface, enclosure or mounting item and repeat specified evidence.
-- [ ] **Return to bench / no-go:** do not redeploy until the named readiness or safety condition is resolved.
-
-- **Decision evidence:**
-- **Required change and owner:**
-- **Repeat test / acceptance evidence:**
-- **Teaching-demo readiness:** ready / conditional / not ready, with reason
-- **Supervised short field-test readiness:** ready / conditional / not ready, with reason
-- **Unattended long-term deployment readiness:** not claimed unless supported by separate evidence
-- **Green Technology claim used:** educational environmental monitoring / solar-low-power sensing / engineering-sustainability trade-off / other evidenced wording
-- **Claims deliberately not made:** carbon reduction / carbon neutral / climate solution / ESG performance / commercial grade / important-decision data / other
-- **Instructor decision / date:**
-- **Open Issue(s) / Pull Request(s):**
+>

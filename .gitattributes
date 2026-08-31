@@ -1,4 +1,9 @@
+* text=auto eol=lf
+
+*.f3d binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.gif binary
 *.pdf binary
-*.csv text eol=lf
-*.md text eol=lf
-*.yml text eol=lf

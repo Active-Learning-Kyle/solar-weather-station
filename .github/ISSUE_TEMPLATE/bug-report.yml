@@ -1,37 +1,69 @@
-name: Bug or observed failure
-description: Record a reproducible hardware, firmware, data, or documentation failure
+name: Bug report
+description: Report a reproducible firmware, backend, hardware or documentation problem.
 title: "[Bug]: "
-labels: []
+labels: [bug]
 body:
-  - type: textarea
-    id: observed
+  - type: markdown
     attributes:
-      label: Observed behaviour
-      description: What happened, including the failure time and conditions?
+      value: |
+        Thank you for helping improve the station. Please remove credentials, precise private location data and personal paths before submitting evidence.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Firmware · production environment
+        - Firmware · diagnostic environment
+        - Backend or API
+        - Dashboard
+        - Electronics or wiring
+        - CAD, enclosure or assembly
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Release, branch or commit SHA where the problem was observed.
+      placeholder: v0.4 or abc1234
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Test setup
+      description: Board, modules, power source, environment and relevant software versions.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Build ...
+        2. Connect ...
+        3. Run ...
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected behaviour or acceptance criterion
+      label: Expected result
     validations:
       required: true
   - type: textarea
-    id: versions
+    id: observed
     attributes:
-      label: Configuration and revisions
-      description: Hardware, firmware, CAD, BOM, sensor, and environment details.
+      label: Observed result and evidence
+      description: Include relevant logs, measurements or redacted screenshots. State how often the failure occurred.
     validations:
       required: true
-  - type: textarea
-    id: reproduce
-    attributes:
-      label: Reproduction steps and evidence
-    validations:
-      required: true
-  - type: textarea
+  - type: checkboxes
     id: safety
     attributes:
-      label: Immediate safety action
-      description: State whether operation should stop or equipment should be isolated.
-
+      label: Publication check
+      options:
+        - label: I removed secrets, precise private coordinates and personal information from this report.
+          required: true

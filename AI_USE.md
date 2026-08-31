@@ -1,29 +1,24 @@
-# AI Use Log
+# AI-Assisted Work
 
-This project permits responsible AI assistance while keeping engineering judgement and verification with the human team.
+AI tools may support research, drafting, coding, debugging and review. They do not replace engineering responsibility or evidence.
 
-## Principle
+## Required practice
 
-**AI can accelerate the work. It cannot own the decision.**
+- A named contributor reviews every AI-assisted change before it is merged.
+- Code must build and pass the relevant automated or hardware test.
+- Generated citations, component specifications, register maps and licence claims must be checked against primary sources.
+- AI output is not hardware evidence, stakeholder evidence or a test result.
+- Credentials, private data, exact restricted locations and unpublished course material must not be entered into an unapproved external service.
+- Material AI assistance should be summarised in the Pull Request when it affected architecture, code, test design or public documentation.
 
-## Log template
+## Suggested Pull Request record
 
-| Date | Task | Tool/model | How AI helped | How the output was verified | Final human decision/change |
-|---|---|---|---|---|---|
-| 2026-08-18 | Repository information architecture | OpenAI Codex | Drafted the GitHub-native v0.1 structure | Instructor reviewed scope against the project foundation and ENGG2202 intent | Publish as a transparent work-in-progress; do not claim unverified validation |
-| 2026-08-18 | Source-document consolidation | OpenAI Codex | Extracted, reorganised and traced the two source PDFs into living repository records | All 36 pages were rendered and visually reviewed; page counts and SHA-256 hashes were checked against the original files | Preserve both originals in the Private repository and distinguish reported history, design direction and measured evidence |
-| 2026-08-18 | Solution landscape study | OpenAI Codex | Located representative commercial, open-source and research alternatives and drafted a comparison | Claims were checked against primary vendor pages, original repositories and the research paper; date-sensitive fields are labelled | Use the study to justify a build only where openness, learning and interface visibility matter; keep Issue #3 open for stakeholder and field evidence |
-| 2026-08-18 | Stakeholder framing and concept matrix | OpenAI Codex | Separated the course-exemplar stakeholder from the physical deployment stakeholder and drafted a weighted buy/adapt/build strategy | Checked against the ENGG2202 course purpose, current project evidence and solution-landscape sources; all stakeholder/site claims remain labelled provisional | Prefer a reference-instrument-plus-modular-exemplar strategy for validation; require instructor/TA interviews, site observation and re-scoring before concept lock |
-| 2026-08-18 | Course–exemplar synchronisation mechanism | OpenAI Codex | Drafted a two-repository ownership and paired-review workflow | Compared the course hub and project repository responsibilities, links and baseline commits | Keep the repositories independent; require review of the paired repository for teaching/project status changes |
-| 2026-08-18 | Issue #3 stakeholder-validation package | OpenAI Codex | Structured the provisional stakeholder, site and decision into interview, site-walk, tabletop-decision and matrix re-score gates | Checked against the current problem/solution-landscape records and preserved every unvalidated claim as a hypothesis | Do not lock the stakeholder, site, thresholds or Concept E until the named human/site evidence is recorded |
-| 2026-08-18 | Gate A instructor interview synthesis | OpenAI Codex | Paraphrased the instructor's written answers to questions 1–10 and mapped them to evidence priorities, role/claim boundaries, reference/buy-build strategy, requirements/tests and a three-stage field checklist | The source responses remain in the conversation; participant statements, team inference, formal authority, site/reference access and unverified project performance are separated in VAL-001 | Confirm the instructor decision purpose and Gate A boundaries; keep Issue #3 open for Gates B–E and real access/test evidence |
-| 2026-08-18 | Gate B TA workflow synthesis | OpenAI Codex | Converted six written TA responses into VAL-002, quick operator/anomaly/contact sheets, workload estimates and operations requirements/tests | The instructor confirmed the respondent was a real TA; no threshold, permission, access, tool or successful dry run is claimed without separate evidence | Treat the interview as complete while keeping T-077/T-078 open to measure actual friction and readiness |
-| 2026-08-18 | Gate C pre-walk synthesis | OpenAI Codex | Converted twelve instructor responses into VAL-003, site requirements/tests and a gatekeeper-facing walk/approval pack | Separated instructor requirements from site-staff authority; kept exact point, ownership, access, mounting, weather response and reference availability unconfirmed | Use the pack with responsible site staff and retain the PR as Draft until real site evidence is added |
-| 2026-08-18 | Gate C official contact routing | OpenAI Codex with web research | Located official Innovation Wing contact, management and access pages and drafted a site-walk enquiry | Used official HKU/Innovation Wing sources only; treated general contact and restricted access as routing evidence rather than exact-site approval | Contact the Innovation Wing Office, ask it to identify the responsible unit/approver and keep PR #18 Draft pending human/site evidence |
-| 2026-08-18 | Gate C teaching simulation | OpenAI Codex | Created a fictional site-staff response, Candidate A/B comparison and conditional Candidate B decision for ENGG2202 discussion | Marked every simulation layer as synthetic/not permission; kept T-079–T-081 and the real Gate C checklist open | Use the scenario as an exemplar only; replace it with responsible-staff evidence before any real deployment |
-| 2026-08-18 | Gate D/E decision synthesis | OpenAI Codex | Converted the instructor's ambiguous 72-hour scenario, `revise` decision and hybrid reference-plus-prototype strategy into a tabletop pack, provisional re-score and traceable requirements/tests | Marked all case data synthetic; separated instructor evidence from the still-missing independent TA response, scoring, sensitivity, access and quotations | Keep Gate D/E open until independent evidence is recorded; teach disagreement as a signal to improve thresholds/displays/authority |
-| 2026-08-18 | Gate A–E teaching-preview completion | OpenAI Codex | Created a fictional TA role-play/alignment, Gate E sensitivity workshop and one-page decision journey so students can see the completed method | Every simulated layer is prominently labelled; real TA, site, reference, quotation and prototype tests remain blocked/open in the verification matrix and Issues | Select Concept E conditionally for teaching and close the landscape study without claiming operational validation |
-| 2026-08-19 | v0.2 full teaching-preview baseline | OpenAI Codex with official product-source research | Drafted the sensor ADR/matrix, planning BOM, synthetic power model, interface/enclosure/schema/firmware scaffold and deterministic 72-hour evidence package | Checked official Sensirion Bosch Lite-On Espressif DFRobot and Waveshare sources; regenerated 432 records; audited CSV shape links evidence labels and calculated summary | Publish as `v0.2-teaching-preview`; do not claim physical assembly measurement site approval or field validation |
+```text
+AI tool and purpose:
+Files or decisions affected:
+Human checks performed:
+Tests and evidence:
+Known uncertainty:
+```
 
-Record material uses such as research synthesis, code generation, debugging, data analysis, CAD ideation, and documentation restructuring. Routine spelling correction does not need an entry.
-
+The contributor remains responsible for correctness, safety, attribution, privacy and the final engineering claim.

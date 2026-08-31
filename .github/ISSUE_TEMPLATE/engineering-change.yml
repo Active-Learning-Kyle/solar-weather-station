@@ -1,0 +1,40 @@
+name: Engineering change
+description: Propose a change to hardware, firmware, data, enclosure or project scope.
+title: "[Change]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision to improve
+      description: What current limitation, risk or user need makes this change useful?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest useful change and which subsystem it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and assumptions
+      description: Link measurements, tests, sources or stakeholder feedback. Separate facts from assumptions.
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Trade-offs, risks and sustainability effects
+      description: Consider cost, energy, materials, repair, safety, privacy and maintenance where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Acceptance test
+      description: What observable result would show that the change works without creating an unsupported claim?
+    validations:
+      required: true

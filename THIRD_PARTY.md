@@ -1,22 +1,39 @@
-# Third-Party Materials and Reference Lineage
+# Third-Party Dependencies
 
-This file records external projects, code, designs, datasets, images, and documentation that informed or entered the project. Learning from a design idea is different from copying protected implementation files. Record both, but be precise about which occurred.
+The repository contains original project source and documentation under the MIT License. Package managers download the dependencies below from their upstream projects. Those dependencies keep their own copyright and licence terms; the project MIT License does not replace them.
 
-No third-party code, PCB, CAD, photograph or documentation file has been imported into this repository version.
+## Firmware libraries
 
-| Project/material | Primary source | Status/licence observed 18 Aug 2026 | Influence | Files reused or modified | Required action |
-|---|---|---|---|---|---|
-| Open Green Energy Solar Powered WiFi Weather Station V4.0 | https://hackaday.io/project/187061-solar-powered-wifi-weather-station-v40 | Project page describes an open-source station and publishes BOM/Gerber/schematic assets; verify licences per asset | Primary architecture lineage: solar power, ESP32, sensor switching, LoRa, enclosure and broad sensor set | None | Record immutable asset versions before any reuse; do not assume one licence covers every asset |
-| James Hughes transmitter firmware | https://github.com/jhughes1010/weather_v4_lora | GPL-3.0; public repository | Stable transmitter firmware linked from V4.0 | None | If copied/adapted, preserve notices and comply with GPL-3.0 |
-| James Hughes receiver firmware | https://github.com/jhughes1010/weather_v4_lora_receiver | GPL-3.0; public repository | Stable receiver/MQTT architecture linked from V4.0 | None | If copied/adapted, preserve notices and comply with GPL-3.0 |
-| teamsuperpanda ESPHome adaptation | https://github.com/teamsuperpanda/Weather-Station | PolyForm Noncommercial 1.0.0; archived 7 Jun 2026 | ESPHome/Home Assistant adaptation and deep-sleep reference | None | Treat as noncommercial reference, not the project's open-source licensing model |
-| Open Weather Station | https://github.com/panchazo/open-weather-station | Apache-2.0 repository | Field reliability, repeatable assembly, maintenance, Android gateway and documentation reference | None | Cite if concepts or implementation details materially influence a decision |
-| SeBassTian23 ESP32-WeatherStation | https://github.com/SeBassTian23/ESP32-WeatherStation | MIT repository | Local SD buffering, solar/deep-sleep, metrology separation and UV-window lessons | None | Cite if code/design is later reused; verify dependency licences separately |
-| DFRobot TEL0157 documentation | https://wiki.dfrobot.com/tel0157/ | Vendor documentation | GNSS interface and specifications | None | Record exact module revision and retain link; redistribute vendor files only if permitted |
-| Waveshare Solar Power Manager (D) documentation | https://www.waveshare.com/wiki/Solar_Power_Manager_%28D%29 | Vendor documentation | Solar/battery/load architecture | None | Record exact board revision and measured behaviour |
-| DFRobot SEN0162 / GUVA-S12SD documentation | https://wiki.dfrobot.com/sen0162/ | Vendor documentation | Candidate true-UV photodiode module | None | Validate ADC, optical path and calibration before selection |
-| Adafruit SI1145 documentation | https://www.adafruit.com/product/1777 | Legacy/no-longer-stocked product reference | Explains inferred UV and legacy V4.0 choice | None | Do not select as default new-build sensor without a reason |
-| Espressif ESP32-S3 documentation | https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/system/sleep_modes.html | Official documentation | Low-power design reference | None | Measure the full development board/system; do not substitute SoC datasheet current for system evidence |
-| Analog Devices MAX485 documentation | https://www.analog.com/en/products/max485.html | Official documentation; 5 V transceiver | Explains limitations of the diagnostic interface | None | Select/document a 3.3 V or isolated alternative for final design |
+| Dependency | Purpose | Upstream |
+| --- | --- | --- |
+| Adafruit SHT4x Library | Temperature and humidity | <https://github.com/adafruit/Adafruit_SHT4X> |
+| Adafruit BMP085 Library | BMP180 pressure interface | <https://github.com/adafruit/Adafruit-BMP085-Library> |
+| BH1750 | Ambient-light sensing | <https://github.com/claws/BH1750> |
+| Adafruit LTR390 Library | UV and ambient-light sensing | <https://github.com/adafruit/Adafruit_LTR390> |
+| TinyGPSPlus | NMEA parsing | <https://github.com/mikalhart/TinyGPSPlus> |
+| DFRobot_GNSS | TEL0157/L76K interface | <https://github.com/DFRobot/DFRobot_GNSS> |
+| ArduinoJson | JSON serialization | <https://github.com/bblanchon/ArduinoJson> |
+| ModbusMaster | Modbus RTU communication | <https://github.com/4-20ma/ModbusMaster> |
+| Espressif Arduino core and PlatformIO platform | ESP32-S3 framework and build tooling | <https://github.com/espressif/arduino-esp32> |
 
-Before public release, add exact commits/tags or dated archive links for every source that materially influences an implementation.
+Exact resolved versions are recorded by PlatformIO under the local build environment. Before a tagged release, record or lock versions needed for reproducibility and review each upstream licence.
+
+## Backend dependencies
+
+| Dependency | Purpose | Upstream |
+| --- | --- | --- |
+| FastAPI | API and static application | <https://github.com/fastapi/fastapi> |
+| Uvicorn | ASGI development server | <https://github.com/encode/uvicorn> |
+| Pydantic | Measurement validation | <https://github.com/pydantic/pydantic> |
+| HTTPX | API test client | <https://github.com/encode/httpx> |
+| pytest | Automated tests | <https://github.com/pytest-dev/pytest> |
+
+## Communication assets
+
+The README uses the official SDG 7, 9 and 13 web icons from the [United Nations Sustainable Development communications materials](https://www.un.org/sustainabledevelopment/news/communications-material/). The icons retain their own terms and must be used in accordance with the UN SDG logo, colour wheel and icon guidelines. Their inclusion does not imply United Nations endorsement.
+
+Project photographs and generated explanatory visuals are documented separately in [`docs/images/readme/README.md`](docs/images/readme/README.md).
+
+## Contribution rule
+
+Do not paste external code, CAD, media or datasets into the repository without recording the source, exact version, licence and required attribution. A public URL alone is not permission to reuse the material.
