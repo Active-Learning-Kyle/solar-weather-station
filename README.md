@@ -58,12 +58,12 @@ The aim is not to imitate a certified meteorological station. The aim is to buil
 
 These goals give the project direction, not automatic evidence. Sustainability still depends on power, materials, repairability, useful lifetime, placement and the decisions enabled by the data.
 
-## From a physical prototype to usable evidence
+## From a physical  to usable evidence
 
 <table>
   <tr>
     <td width="42%" valign="top">
-      <img src="docs/images/readme/prototype-complete.webp" alt="Completed white 3D-printed Solar Weather Station with RS485 wind sensor" width="100%"><br>
+      <img src="docs/images/readme/cover.png" alt="Completed white 3D-printed Solar Weather Station with RS485 wind sensor" width="100%"><br>
       <sub><strong>The physical system.</strong> A modular 3D-printed sensor body and power enclosure with an ESP32-S3, environmental sensors, GNSS and RS485 wind speed.</sub>
     </td>
     <td width="58%" valign="top">
