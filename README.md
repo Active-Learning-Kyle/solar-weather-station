@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>Build a local weather station. See every reading. Keep every limitation visible.</strong>
+  <strong>Make invisible microclimates visible—so greener campus decisions can be based on local evidence.</strong>
 </p>
 
 <p align="center">
-  An open-source ESP32-S3 platform for environmental sensing, local data collection, system diagnostics and staged outdoor validation.
+  A solar-powered station for investigating how heat, light, particles and wind vary across the places where people study, work and grow plants.
 </p>
 
 <p align="center">
@@ -22,17 +22,17 @@
 
 <p align="center"><sub>Application visualisation based on the completed prototype. Field performance still requires the tests described in this repository.</sub></p>
 
-## Why build another weather station?
+## The problem: one forecast cannot describe every place
 
-A city-wide forecast can tell us the general weather, but it cannot describe every rooftop garden, shaded courtyard, workshop entrance or sun-heated wall. Two places only a short walk apart may experience different temperature, light, particles and wind—and those differences matter when someone is deciding where to grow plants, place equipment or improve an outdoor space.
+A city-wide forecast can tell us the general weather, but it cannot describe every rooftop garden, shaded courtyard, workshop entrance or sun-heated wall. Two places only a short walk apart may experience different temperature, light, particles and wind. Without local evidence, decisions about shade, planting, ventilation, outdoor activities and equipment placement can easily be based on assumption.
 
 That creates a more interesting engineering question than simply displaying sensor values:
 
-> **Can we build a local station that shows not only what it measured, but also whether the sensors, data path and physical system deserve to be trusted?**
+> **Can a repairable, solar-powered station produce trustworthy local evidence for deciding where and when a campus space needs environmental improvement?**
 
-The Solar Weather Station grew from that question. Its firmware keeps sensor failures visible. Its backend preserves measurements instead of showing only the latest number. Its dashboard connects readings with health state and history. Its editable enclosure, tests and decisions let another person inspect the work, reproduce it and improve it.
+The Solar Weather Station grew from that question. It is designed to compare conditions between small campus locations and over time, while keeping sensor failures and uncertainty visible. A useful outcome is not simply a dashboard: it is evidence that can support a specific decision, such as whether a rooftop growing area needs shade, whether a courtyard needs further heat investigation, or whether a proposed monitoring location is representative.
 
-The aim is not to imitate a certified meteorological station. The aim is to build an honest, useful engineering platform—one verified subsystem at a time.
+The aim is not to imitate a certified meteorological station or claim that one prototype solves urban climate change. The aim is to create an honest local evidence tool—one verified subsystem and one decision at a time.
 
 ## Green Technology and the SDGs
 
@@ -41,24 +41,24 @@ The aim is not to imitate a certified meteorological station. The aim is to buil
     <td align="center" width="33%">
       <img src="docs/images/readme/sdg-07.png" alt="SDG 7 Affordable and Clean Energy" width="105"><br>
       <strong>SDG 7 · Affordable and Clean Energy</strong><br>
-      <sub>Solar and battery operation are design goals. Energy use, charging losses and endurance must be measured before autonomy is claimed.</sub>
+      <sub>The station tests whether local monitoring can run from a measured solar-energy budget. Power demand, charging loss and endurance are recorded before autonomy is claimed.</sub>
     </td>
     <td align="center" width="33%">
       <img src="docs/images/readme/sdg-09.png" alt="SDG 9 Industry Innovation and Infrastructure" width="105"><br>
       <strong>SDG 9 · Industry, Innovation and Infrastructure</strong><br>
-      <sub>Modular firmware, local data infrastructure and editable hardware create a platform that others can inspect and extend.</sub>
+      <sub>Editable CAD, modular firmware and an open data path make the monitoring infrastructure repairable, reproducible and adaptable to another site.</sub>
     </td>
     <td align="center" width="33%">
       <img src="docs/images/readme/sdg-13.png" alt="SDG 13 Climate Action" width="105"><br>
       <strong>SDG 13 · Climate Action</strong><br>
-      <sub>Local observations can support climate-related investigation, but a station or SDG icon alone is not proof of environmental impact.</sub>
+      <sub>Hyperlocal observations can reveal heat, exposure and weather patterns that inform a campus adaptation decision. Impact begins only when the evidence changes an action.</sub>
     </td>
   </tr>
 </table>
 
-These goals give the project direction, not automatic evidence. Sustainability still depends on power, materials, repairability, useful lifetime, placement and the decisions enabled by the data.
+Together, the three goals form one testable chain: **power the sensing responsibly (SDG 7), leave behind reusable monitoring infrastructure (SDG 9), and use its evidence to inform local climate adaptation (SDG 13).** Sustainability still depends on measured power, materials, repairability, useful lifetime, placement and a documented decision enabled by the data.
 
-## From a physical  to usable evidence
+## From a physical prototype to usable evidence
 
 <table>
   <tr>
@@ -271,11 +271,21 @@ The project records six connected decisions. Evidence may send the work back to 
 | 01 **Focus** | Which Green Technology challenge is worth pursuing? | [Challenge focus](docs/project-journey/01-focus.md) |
 | 02 **Define** | What problem, user and evidence boundary define the work? | [Problem definition](docs/project-journey/02-define.md) |
 | 03 **Plan** | Which architecture and validation route should be used? | [Proposal and plan](docs/project-journey/03-plan.md) |
-| 04 **Learn** | What did each working version teach? | [Working versions](docs/project-journey/04-learn.md) |
-| 05 **Improve** | What does the evidence justify changing next? | [Testing and iteration](docs/project-journey/05-improve.md) |
+| 04 **Learn** | What can be rebuilt and understood from existing open projects? | [Open references and working versions](docs/project-journey/04-learn.md) |
+| 05 **Improve** | What should be adapted or improved for this problem, based on evidence? | [Testing and iteration](docs/project-journey/05-improve.md) |
 | 06 **Contribute** | What can another person safely understand, reproduce and extend? | [Responsible release](docs/project-journey/06-contribute.md) |
 
 The [project-journey index](docs/project-journey/README.md) connects these decisions to milestone records, code, CAD, tests and release checks.
+
+### Learn from open work before designing from zero
+
+This station was not developed in isolation. Three public projects were studied as working precedents:
+
+- [SeBassTian23/ESP32-WeatherStation](https://github.com/SeBassTian23/ESP32-WeatherStation) showed how particulate matter, UV-related sensing, solar power and local logging can coexist in an ESP32 station.
+- [cerevisis/ESP32-Weather-Station](https://github.com/cerevisis/ESP32-Weather-Station) demonstrated a device-hosted dashboard, historical records, sensor diagnostics and extensible weather interfaces.
+- [maxmacstn/HA-SolarWeatherStation](https://github.com/maxmacstn/HA-SolarWeatherStation) provided a useful precedent for solar operation, deep sleep, battery-aware behaviour and separating sensing from the protected electronics enclosure.
+
+The purpose of studying them was not to combine every feature. It was to rebuild enough of the established pattern to understand its trade-offs, then make a problem-specific improvement: explicit per-sensor health, a local inspectable data path, editable modular hardware and evidence boundaries that distinguish a real zero reading from missing or unverified data. Their code and hardware remain under their respective licences; this repository records the ideas studied and the new work developed here.
 
 ## Start with the part you want to change
 

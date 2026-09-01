@@ -1,6 +1,20 @@
 # Gate 04: Learn
 
-Each working version was kept small enough to expose a specific integration problem. Later milestones preserve the earlier diagnostics and failure behavior.
+Gate 04 began by studying working open-source weather stations rather than treating the project as if no one had solved similar problems before.
+
+## Open projects studied
+
+| Reference | What was learned | What this project does differently |
+| --- | --- | --- |
+| [SeBassTian23/ESP32-WeatherStation](https://github.com/SeBassTian23/ESP32-WeatherStation) | Solar-powered ESP32 sensing can include particulate matter and UV-related measurements, but power demand and calibration limits remain important. | Keep every sensor's validity visible and treat UV and air-quality outputs as bounded measurements rather than automatic environmental claims. |
+| [cerevisis/ESP32-Weather-Station](https://github.com/cerevisis/ESP32-Weather-Station) | A weather station can expose live readings, history, configuration and diagnostics through a web interface. | Use a small local FastAPI and SQLite path so ingestion rules, stored history and failure states can be tested independently. |
+| [maxmacstn/HA-SolarWeatherStation](https://github.com/maxmacstn/HA-SolarWeatherStation) | Deep sleep, battery-aware operation and separated enclosures are practical strategies for autonomous outdoor sensing. | Keep the sensing and power modules editable and defer any autonomy claim until the complete energy balance has been measured. |
+
+These projects are precedents, not hidden ingredients. Their licences continue to govern their work. The implementation in this repository was developed and documented separately, with the reference ideas and resulting design decisions made explicit.
+
+## Rebuild, understand, then adapt
+
+Each working version was kept small enough to reproduce and understand one established capability before changing it for this project's local-evidence goal. Later milestones preserve the earlier diagnostics and failure behaviour.
 
 ## Core v0.1: integrated sensing
 
