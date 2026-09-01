@@ -4,7 +4,7 @@ This folder separates project evidence from explanatory visualisations.
 
 ## Project photographs and interface capture
 
-- `prototype-complete.webp` — completed physical prototype supplied by the project owner.
+- `cover.png` — completed physical prototype supplied by the project owner.
 - `dashboard-live.webp` — live project dashboard capture supplied by the project owner.
 - `electronics-controller.webp` — internal controller, interface board and wiring photograph supplied by the project owner.
 - `electronics-sensor-stack.webp` — internal GNSS and sensor-mount photograph supplied by the project owner.
