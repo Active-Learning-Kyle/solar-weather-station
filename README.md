@@ -1,7 +1,7 @@
 # Solar Weather Station
 
 <p align="center">
-  <img src="docs/images/readme/application-rooftop.webp" alt="Solar Weather Station installed for supervised microclimate observation in a university rooftop garden" width="100%">
+  <img src="docs/images/solar-weather-station-cover.png" alt="Solar Weather Station prototype with its solar panel, cup anemometer and wind vane on a green rooftop" width="100%">
 </p>
 
 <p align="center">
