@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/heqihao522828-crypto/solar-weather-station/actions/workflows/ci.yml"><img src="https://github.com/heqihao522828-crypto/solar-weather-station/actions/workflows/ci.yml/badge.svg" alt="Continuous integration status"></a>
+  <a href="https://github.com/Active-Learning-Kyle/solar-weather-station/actions/workflows/ci.yml"><img src="https://github.com/Active-Learning-Kyle/solar-weather-station/actions/workflows/ci.yml/badge.svg" alt="Continuous integration status"></a>
   <img src="https://img.shields.io/badge/release-Core%20v0.4-16734b" alt="Core v0.4">
   <img src="https://img.shields.io/badge/hardware-ESP32--S3-187b8e" alt="ESP32-S3">
   <img src="https://img.shields.io/badge/CAD-Fusion%20360-f28c28" alt="Fusion 360 CAD">
@@ -183,7 +183,7 @@ The terms used throughout the repository have fixed meanings:
 ### 1. Clone the repository
 
 ```powershell
-git clone https://github.com/heqihao522828-crypto/solar-weather-station.git
+git clone https://github.com/Active-Learning-Kyle/solar-weather-station.git
 cd solar-weather-station
 ```
 
